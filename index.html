@@ -1,636 +1,1699 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
-  <title>Política de Privacidade & Termos de Uso — Guesbay</title>
-  <meta name="description" content="Política de Privacidade e Termos de Uso oficiais do aplicativo Guesbay. Em total conformidade com a LGPD (Lei nº 13.709/2018), Marco Civil da Internet e diretrizes da Google Play Store.">
-  <meta name="keywords" content="Guesbay, Política de Privacidade, Termos de Uso, LGPD, Marco Civil, Google Play Data Safety, Axis-EVS">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guesbay — Gestão Inteligente para Espaços de Nutrição & Vendas</title>
+  <meta name="description"
+    content="O ERP e CRM definitivo para Espaços de Nutrição e negócios. Controle de estoque por PV, cálculo de receitas, dashboards em tempo real, CRM de retenção e compartilhamento de equipes.">
+  <meta name="keywords"
+    content="Guesbay, Espaço de Nutrição, ERP Nutrição, CRM Vendas, Controle de Estoque PV, Gestão de Espaço, Aplicativo Android Nutrição">
   <meta name="author" content="Axis-EVS / Guesbay">
-  <meta name="robots" content="index, follow">
-  
-  <!-- OpenGraph -->
-  <meta property="og:title" content="Política de Privacidade & Termos de Uso — Guesbay">
-  <meta property="og:description" content="Documentos jurídicos e de privacidade oficiais do Guesbay. Transparência, segurança e conformidade com a LGPD e Google Play.">
-  <meta property="og:type" content="website">
-  <meta property="og:image" content="assets/logo.png">
-  <meta property="og:locale" content="pt_BR">
-  
-  <!-- Favicons -->
-  <link rel="icon" type="image/png" href="assets/icon.png">
-  <link rel="apple-touch-icon" href="assets/icon-round.png">
-  <meta name="theme-color" content="#070a11">
 
-  <!-- Google Fonts: Plus Jakarta Sans -->
+  <!-- Open Graph / Redes Sociais -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://guesbay.axisevs.com/">
+  <meta property="og:title" content="Guesbay — Gestão Inteligente para Espaços de Nutrição">
+  <meta property="og:description"
+    content="Controle faturamento, estoque, receitas, clientes e equipe em tempo real. Acesse no Android e na Web.">
+  <meta property="og:image" content="assets/logo.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/icon.png">
+  <link rel="apple-touch-icon" href="assets/icon.png">
+
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
 
-  <link rel="stylesheet" href="styles.css?v=20261002_3">
+  <!-- CSS Styles -->
+  <link rel="stylesheet" href="styles.css">
 </head>
-<body class="theme-obsidian">
 
-  <!-- Ambient Glow Orbs (Fixed in viewport, pointer-events none, 0 layout footprint) -->
-  <div class="glow-orb glow-top-left" aria-hidden="true"></div>
-  <div class="glow-orb glow-top-right" aria-hidden="true"></div>
+<body>
+  <!-- Background Glow & Grid Elements -->
+  <div class="bg-glow bg-glow-1"></div>
+  <div class="bg-glow bg-glow-2"></div>
+  <div class="bg-grid"></div>
 
   <!-- Header / Navigation Bar -->
-  <header class="site-header" id="top-header">
-    <div class="header-container">
-      <div class="brand-block">
-        <a href="javascript:void(0)" class="brand-link" id="brand-logo-link" title="Guesbay Central Jurídica">
-          <img src="assets/logo.png" alt="Guesbay Logo" class="brand-logo" onerror="this.src='assets/icon.png'">
-          <div class="brand-text">
-            <span class="brand-name">Guesbay</span>
-            <span class="brand-tag">Central Jurídica & Privacidade</span>
-          </div>
+  <header class="navbar-container">
+    <nav class="navbar">
+      <a href="#hero" class="brand-logo">
+        <img src="assets/logo.png" alt="Guesbay Logo" class="logo-img">
+        <span class="brand-name">Guesbay</span>
+      </a>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#recursos" class="nav-link">Recursos</a>
+        <a href="#compartilhamento" class="nav-link">Equipes</a>
+        <a href="#dashboards" class="nav-link">Dashboards</a>
+        <a href="#fiscal" class="nav-link">Notas Fiscais</a>
+        <a href="#planos" class="nav-link">Planos</a>
+        <a href="#plataformas" class="nav-link">Plataformas</a>
+        <a href="#faq" class="nav-link">Dúvidas</a>
+      </div>
+
+      <div class="nav-actions">
+        <a href="https://guesbay.axisevs.com/" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+          <span>Acessar Web</span>
+          <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+            <polyline points="15 3 21 3 21 9"></polyline>
+            <line x1="10" y1="14" x2="21" y2="3"></line>
+          </svg>
         </a>
-        <div class="version-badge">
-          <span class="badge-dot"></span>
-          <span>Versão Oficial 2026.1 • Em Vigor</span>
-        </div>
+        <a href="https://play.google.com/store/apps/details?id=com.guesbay.app" target="_blank"
+          rel="noopener noreferrer" class="btn btn-primary btn-sm">
+          <span>Baixar App</span>
+          <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M3.609 1.814L13.792 12 3.61 22.186a2.38 2.38 0 0 1-.61-.952V2.766c.15-.36.368-.69.609-.952zm11.246 11.248L5.342 22.575a2.03 2.03 0 0 0 1.258.425c.53 0 1.05-.188 1.48-.543l9.075-5.24-2.3-4.196zm0-2.124l2.3-4.195-9.075-5.24A2.39 2.39 0 0 0 6.6.96c-.46 0-.91.15-1.258.425l9.513 9.513zm1.61 1.062l2.67-1.542c1.16-.67 1.16-1.764 0-2.434l-2.67-1.542-2.072 2.759 2.072 2.759z" />
+          </svg>
+        </a>
       </div>
 
-      <div class="header-actions">
-        <!-- Language Switcher -->
-        <div class="lang-selector-wrapper">
-          <button type="button" class="lang-btn active" data-lang="pt" title="Português (Brasil)">
-            <span class="flag">🇧🇷</span> <span class="lang-label">PT</span>
-          </button>
-          <button type="button" class="lang-btn" data-lang="en" title="English (US)">
-            <span class="flag">🇺🇸</span> <span class="lang-label">EN</span>
-          </button>
-          <button type="button" class="lang-btn" data-lang="es" title="Español">
-            <span class="flag">🇪🇸</span> <span class="lang-label">ES</span>
-          </button>
-          <button type="button" class="lang-btn" data-lang="vi" title="Tiếng Việt">
-            <span class="flag">🇻🇳</span> <span class="lang-label">VI</span>
-          </button>
-        </div>
-
-        <!-- External Quick Links -->
-        <div class="external-links">
-          <a href="https://guesbay.axisevs.com/" target="_blank" rel="noopener noreferrer" class="nav-btn nav-btn-outline" title="Acessar o App Web">
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
-            <span>App Web</span>
-          </a>
-          <a href="https://play.google.com/store/apps/details?id=com.guesbay.app" target="_blank" rel="noopener noreferrer" class="nav-btn nav-btn-primary" title="Ver na Google Play Store">
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M3.609 1.814L13.792 12 3.61 22.186a1.986 1.986 0 0 1-.22-.924V2.738c0-.342.08-.66.219-.924zM15.207 13.414l2.585 2.586-13.47 7.747 10.885-10.333zm0-2.828L4.322.253l13.47 7.747-2.585 2.586zm1.414 1.414l3.586-2.062a1.988 1.988 0 0 1 0 3.447l-3.586-2.062z"/></svg>
-            <span>Google Play</span>
-          </a>
-          <button type="button" class="nav-btn nav-btn-icon" id="print-btn" title="Imprimir / Salvar em PDF">
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9V2h12v7"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
-          </button>
-        </div>
-      </div>
-    </div>
-
-    <!-- Document Switcher Tabs (Privacy Policy / Terms of Use) -->
-    <div class="tabs-nav-bar">
-      <div class="tabs-container">
-        <button type="button" class="tab-btn active" data-tab="privacy" id="tab-privacy-btn">
-          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-          <span class="tab-title" id="tab-privacy-label">Política de Privacidade</span>
-        </button>
-        <button type="button" class="tab-btn" data-tab="terms" id="tab-terms-btn">
-          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
-          <span class="tab-title" id="tab-terms-label">Termos de Uso</span>
-        </button>
-      </div>
-    </div>
+      <!-- Mobile Hamburger Toggle -->
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Abrir menu de navegação">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </nav>
   </header>
 
-  <!-- Hero Section with Compliance Badges -->
-  <section class="hero-section" id="hero-section">
-    <div class="hero-container">
-      <div class="hero-header">
-        <h1 id="doc-title">Política de Privacidade</h1>
-        <p class="hero-subtitle" id="doc-subtitle">Proteção de Dados (LGPD — Lei nº 13.709/2018, Marco Civil da Internet & Resoluções ANPD)</p>
-      </div>
-
-      <!-- Quick Compliance Badges Grid -->
-      <div class="compliance-grid">
-        <div class="compliance-pill">
-          <span class="pill-icon">🛡️</span>
-          <div class="pill-info">
-            <strong>LGPD Plena</strong>
-            <span>Lei nº 13.709/18 & Res. ANPD 18/19</span>
-          </div>
-        </div>
-        <div class="compliance-pill">
-          <span class="pill-icon">🌐</span>
-          <div class="pill-info">
-            <strong>Marco Civil da Internet</strong>
-            <span>Lei nº 12.965/14 (Art. 15 e Art. 19)</span>
-          </div>
-        </div>
-        <div class="compliance-pill">
-          <span class="pill-icon">⚖️</span>
-          <div class="pill-info">
-            <strong>Direitos Autorais</strong>
-            <span>Lei nº 9.610/98 & Notice & Takedown</span>
-          </div>
-        </div>
-        <div class="compliance-pill">
-          <span class="pill-icon">🚫</span>
-          <div class="pill-info">
-            <strong>Zero Rastreadores</strong>
-            <span>Sem Google Analytics ou Meta Pixel</span>
-          </div>
-        </div>
-        <div class="compliance-pill">
-          <span class="pill-icon">🤖</span>
-          <div class="pill-info">
-            <strong>IA com Governança</strong>
-            <span>Expurgo 48h & Art. 20 (Revisão Humana)</span>
-          </div>
-        </div>
-        <div class="compliance-pill">
-          <span class="pill-icon">👤</span>
-          <div class="pill-info">
-            <strong>Encarregado DPO</strong>
-            <span>axisevs@gmail.com</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Main Content Layout (Sidebar TOC + Legal Articles) -->
-  <main class="main-layout">
-    <div class="content-container">
-
-      <!-- Left Sidebar: Table of Contents & Quick Search (Desktop) -->
-      <aside class="legal-sidebar" id="legal-sidebar">
-        <div class="sidebar-sticky">
-          
-          <!-- Search Clause Bar -->
-          <div class="search-box">
-            <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-            <input type="text" id="clause-search" placeholder="Filtrar cláusula ou palavra-chave..." autocomplete="off">
-            <button type="button" id="clear-search-btn" class="clear-search-btn" title="Limpar busca" style="display:none;">&times;</button>
+  <main>
+    <!-- HERO SECTION -->
+    <section id="hero" class="hero-section">
+      <div class="container hero-content">
+        <!-- Headline & Copy -->
+        <div class="hero-text">
+          <div class="badge hero-badge animate-fade-in">
+            <span class="badge-dot"></span>
+            <span class="badge-text">O ERP & CRM Especializado para seu Espaço</span>
           </div>
 
-          <!-- TOC Heading -->
-          <div class="toc-header">
-            <span class="toc-title" id="toc-heading-label">Índice de Cláusulas</span>
-            <span class="toc-count" id="toc-count-badge">16 seções</span>
+          <h1 class="hero-title animate-slide-up">
+            Controle Total do seu Negócio, <span class="gradient-text">Estoque e Vendas</span> na Palma da Mão.
+          </h1>
+
+          <p class="hero-description animate-slide-up delay-1">
+            Projetado sob medida para consultores, lojistas e donos de Espaços de Nutrição. Dashboards em tempo real,
+            controle de estoque por PV, ficha técnica de custos por receita, CRM de clientes e sincronização
+            multiusuário na nuvem.
+          </p>
+
+          <!-- CTAs Principais -->
+          <div class="hero-cta-group animate-slide-up delay-2">
+            <a href="https://guesbay.axisevs.com/" target="_blank" rel="noopener noreferrer"
+              class="btn btn-primary btn-lg pulse-effect">
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                <polyline points="15 3 21 3 21 9"></polyline>
+                <line x1="10" y1="14" x2="21" y2="3"></line>
+              </svg>
+              <span>Acessar no Navegador (Web)</span>
+            </a>
+
+            <a href="https://play.google.com/store/apps/details?id=com.guesbay.app" target="_blank"
+              rel="noopener noreferrer" class="btn btn-store btn-lg">
+              <svg class="store-icon" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M3.609 1.814L13.792 12 3.61 22.186a2.38 2.38 0 0 1-.61-.952V2.766c.15-.36.368-.69.609-.952zm11.246 11.248L5.342 22.575a2.03 2.03 0 0 0 1.258.425c.53 0 1.05-.188 1.48-.543l9.075-5.24-2.3-4.196zm0-2.124l2.3-4.195-9.075-5.24A2.39 2.39 0 0 0 6.6.96c-.46 0-.91.15-1.258.425l9.513 9.513zm1.61 1.062l2.67-1.542c1.16-.67 1.16-1.764 0-2.434l-2.67-1.542-2.072 2.759 2.072 2.759z" />
+              </svg>
+              <div class="store-btn-text">
+                <span class="store-small">DISPONÍVEL NO</span>
+                <span class="store-large">Google Play (Android)</span>
+              </div>
+            </a>
           </div>
 
-          <!-- TOC Links List -->
-          <nav class="toc-nav" id="toc-nav" aria-label="Sumário do documento">
-            
-  <a href="#privacy-1" class="toc-link" data-target="privacy-1">
-    <span class="toc-num">1</span>
-    <span class="toc-text">Papéis no Tratamento de Dados (Controlador e Operador — Art. 5º da LGPD)</span>
-  </a>
-
-
-  <a href="#privacy-2" class="toc-link" data-target="privacy-2">
-    <span class="toc-num">2</span>
-    <span class="toc-text">Categorias Detalhadas de Dados Pessoais e Declaração de Ausência de Rastreadores Publicitários</span>
-  </a>
-
-
-  <a href="#privacy-3" class="toc-link" data-target="privacy-3">
-    <span class="toc-num">3</span>
-    <span class="toc-text">Tratamento de Dados por Inteligência Artificial (IA), Memórias Persistentes, Expurgo de 48h e Revisão Humana (LGPD Art. 20)</span>
-  </a>
-
-
-  <a href="#privacy-4" class="toc-link" data-target="privacy-4">
-    <span class="toc-num">4</span>
-    <span class="toc-text">Identificadores de Dispositivo (Device ID / ANDROID_ID) e Segurança de Sessão Única</span>
-  </a>
-
-
-  <a href="#privacy-5" class="toc-link" data-target="privacy-5">
-    <span class="toc-num">5</span>
-    <span class="toc-text">Trilhas de Auditoria e Logs Probatórios do Sistema (system_deletions e legal_consents_log)</span>
-  </a>
-
-
-  <a href="#privacy-6" class="toc-link" data-target="privacy-6">
-    <span class="toc-num">6</span>
-    <span class="toc-text">Sincronização de Calendário, Tarefas em Segundo Plano e Permissões do Aplicativo</span>
-  </a>
-
-
-  <a href="#privacy-7" class="toc-link" data-target="privacy-7">
-    <span class="toc-num">7</span>
-    <span class="toc-text">Segurança dos Canais de Comunicação Oficiais</span>
-  </a>
-
-
-  <a href="#privacy-8" class="toc-link" data-target="privacy-8">
-    <span class="toc-num">8</span>
-    <span class="toc-text">Finalidade Estrita e Zero Comercialização de Dados Pessoais</span>
-  </a>
-
-
-  <a href="#privacy-9" class="toc-link" data-target="privacy-9">
-    <span class="toc-num">9</span>
-    <span class="toc-text">Compartilhamento Técnico com Subprocessadores de Infraestrutura e IA (Resolução CD/ANPD nº 19/2024)</span>
-  </a>
-
-
-  <a href="#privacy-10" class="toc-link" data-target="privacy-10">
-    <span class="toc-num">10</span>
-    <span class="toc-text">Segurança da Informação, Isolamento Lógico e Row Level Security (RLS)</span>
-  </a>
-
-
-  <a href="#privacy-11" class="toc-link" data-target="privacy-11">
-    <span class="toc-num">11</span>
-    <span class="toc-text">Armazenamento Local, Cache e Ausência de Rastreadores Publicitários</span>
-  </a>
-
-
-  <a href="#privacy-12" class="toc-link" data-target="privacy-12">
-    <span class="toc-num">12</span>
-    <span class="toc-text">Transferência Internacional de Dados Pessoais (Capítulo V da LGPD)</span>
-  </a>
-
-
-  <a href="#privacy-13" class="toc-link" data-target="privacy-13">
-    <span class="toc-num">13</span>
-    <span class="toc-text">Direitos dos Titulares (LGPD Art. 18) e Ferramentas de Autoatendimento</span>
-  </a>
-
-
-  <a href="#privacy-14" class="toc-link" data-target="privacy-14">
-    <span class="toc-num">14</span>
-    <span class="toc-text">Guarda Obrigatória de Registros Telemáticos (Marco Civil Art. 15) vs. Expurgo Imediato</span>
-  </a>
-
-
-  <a href="#privacy-15" class="toc-link" data-target="privacy-15">
-    <span class="toc-num">15</span>
-    <span class="toc-text">Fluxo de Exclusão de Conta e Dados (Diretrizes Google Play Store & Apple App Store Guideline 5.1.1v)</span>
-  </a>
-
-
-  <a href="#privacy-16" class="toc-link" data-target="privacy-16">
-    <span class="toc-num">16</span>
-    <span class="toc-text">Notificação de Incidentes de Segurança e Contato do Encarregado de Proteção de Dados (DPO — Resolução CD/ANPD nº 18/2024)</span>
-  </a>
-
-          </nav>
-
-          <!-- DPO Contact Card -->
-          <div class="dpo-contact-card">
-            <div class="dpo-icon">📬</div>
-            <div class="dpo-details">
-              <strong id="dpo-card-title">Encarregado de Dados (DPO)</strong>
-              <p id="dpo-card-desc">Para requisições LGPD, dúvidas ou denúncias de conteúdo:</p>
-              <a href="mailto:axisevs@gmail.com" class="dpo-email">axisevs@gmail.com</a>
-              <span class="dpo-sla">Resposta em até 15 dias úteis</span>
+          <!-- Platform Availability Notice -->
+          <div class="platform-notice-badge animate-slide-up delay-3">
+            <div class="notice-tag notice-success">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              <span>Disponível no Android & Web App</span>
+            </div>
+            <div class="notice-tag notice-info">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="12" y1="16" x2="12" y2="12"></line>
+                <line x1="12" y1="8" x2="12.01" y2="8"></line>
+              </svg>
+              <span>Exclusivo para Android e Web (iOS não disponível)</span>
             </div>
           </div>
 
+          <!-- Trust Badges -->
+          <div class="hero-stats animate-slide-up delay-3">
+            <div class="stat-item">
+              <span class="stat-value">100%</span>
+              <span class="stat-label">Sincronizado na Nuvem</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-value">6 Dígitos</span>
+              <span class="stat-label">Convite Rápido de Equipe</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-value">Zero</span>
+              <span class="stat-label">Planilhas Complicadas</span>
+            </div>
+          </div>
         </div>
-      </aside>
 
-      <!-- Right Column: Document Preamble + Full Legal Clauses -->
-      <article class="legal-content-wrapper" id="legal-content-wrapper">
-        
-        <!-- Named Anchor Targets for Browser Fragment Reliability -->
-        <div id="privacidade" style="position:relative; top:-120px; visibility:hidden;"></div>
-        <div id="termos" style="position:relative; top:-120px; visibility:hidden;"></div>
+        <!-- Hero Mockup & Interactive Showcase Matching Native Screenshot -->
+        <div class="hero-visual animate-fade-in delay-2">
+          <!-- Main Native White Dashboard Card -->
+          <div class="native-dashboard-card" id="interactiveDashboardCard">
+            <!-- Header -->
+            <div class="dash-header">
+              <div class="dash-header-left">
+                <div class="dash-icon-circle" data-popup="growth" title="Clique para ver o desempenho geral">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="#047857" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="22 7 13.5 15.5 8.5 10.5 2 17"></polyline>
+                    <polyline points="16 7 22 7 22 13"></polyline>
+                    <circle cx="9" cy="9" r="2.5"></circle>
+                  </svg>
+                </div>
+                <div class="dash-header-text">
+                  <span class="dash-header-sub">DESEMPENHO GERAL</span>
+                  <div class="dash-month-row" data-popup="growth" title="Clique para ver o comparativo de Julho 2026">
+                    <span class="dash-month-title">Julho 2026</span>
+                    <svg class="dash-filter-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <line x1="4" y1="21" x2="4" y2="14"></line>
+                      <line x1="4" y1="10" x2="4" y2="3"></line>
+                      <line x1="12" y1="21" x2="12" y2="12"></line>
+                      <line x1="12" y1="8" x2="12" y2="3"></line>
+                      <line x1="20" y1="21" x2="20" y2="16"></line>
+                      <line x1="20" y1="12" x2="20" y2="3"></line>
+                      <line x1="1" y1="14" x2="7" y2="14"></line>
+                      <line x1="9" y1="8" x2="15" y2="8"></line>
+                      <line x1="17" y1="16" x2="23" y2="16"></line>
+                    </svg>
+                  </div>
+                </div>
+              </div>
 
-        <!-- Document Preamble / Lead Paragraph -->
-        <div class="lead-box" id="lead-box">
-          <p class="font-semibold text-on-surface text-[14px]">
-              Esta <strong>Política de Privacidade</strong> consolida o compromisso inegociável do Guesbay com a proteção dos seus dados pessoais e dos dados de seus clientes, em estrita observância à Lei Geral de Proteção de Dados Pessoais (LGPD — Lei nº 13.709/2018), ao Marco Civil da Internet (Lei nº 12.965/2014), às Resoluções da Autoridade Nacional de Proteção de Dados (ANPD) e às diretrizes de conformidade do Google Play Store e Apple App Store.
+              <!-- Pill +144.0% -->
+              <div class="dash-trend-pill" data-popup="growth" title="Clique para ver o crescimento vs mês anterior">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
+                  <polyline points="17 6 23 6 23 12"></polyline>
+                </svg>
+                <span>+144.0%</span>
+              </div>
+            </div>
+
+            <!-- Big KPI Cards Row -->
+            <div class="dash-big-kpis">
+              <div class="dash-kpi-box box-fat" data-popup="revenue" title="Clique para ver o detalhamento do Faturamento">
+                <div class="dash-kpi-top">
+                  <span class="kpi-dot dot-fat"></span>
+                  <span class="kpi-tag-label">FATURAMENTO TOTAL</span>
+                </div>
+                <div class="dash-kpi-number text-fat">R$ 7.427,00</div>
+              </div>
+
+              <div class="dash-kpi-box box-lucro" data-popup="profit" title="Clique para ver a composição do Lucro Líquido">
+                <div class="dash-kpi-top">
+                  <span class="kpi-dot dot-lucro"></span>
+                  <span class="kpi-tag-label">LUCRO LÍQUIDO</span>
+                </div>
+                <div class="dash-kpi-number text-lucro">R$ 4.625,78</div>
+              </div>
+            </div>
+
+            <!-- Metric Pills Row (Ticket Médio, Margem Média, Vendas) -->
+            <div class="dash-metric-pills">
+              <div class="metric-pill-item" data-popup="ticket" title="Clique para ver como o Ticket Médio é calculado">
+                <span class="pill-title">TICKET MÉDIO</span>
+                <strong class="pill-value">R$ 37,51</strong>
+              </div>
+
+              <div class="metric-pill-item" data-popup="margin" title="Clique para ver a Margem de Lucro">
+                <span class="pill-title">MARGEM MÉDIA</span>
+                <strong class="pill-value text-emerald-dark">62%</strong>
+              </div>
+
+              <div class="metric-pill-item" data-popup="sales" title="Clique para ver as Vendas do Mês">
+                <span class="pill-title">VENDAS</span>
+                <strong class="pill-value">198 no mês</strong>
+              </div>
+            </div>
+
+            <!-- Goal Progress Row -->
+            <div class="dash-goal-container" data-popup="goal" title="Clique para ver a Meta Mensal">
+              <div class="dash-goal-header">
+                <div class="dash-goal-title">
+                  <svg class="trophy-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path>
+                    <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path>
+                    <path d="M4 22h16"></path>
+                    <path d="M10 14.66V17c0 .55-.45 1-1 1H8v4h8v-4h-1c-.55 0-1-.45-1-1v-2.34"></path>
+                    <path d="M18 2H6v7a6 6 0 0 0 12 0V2z"></path>
+                  </svg>
+                  <span>Meta Mensal (R$ 4.000,00)</span>
+                </div>
+                <span class="dash-goal-percent">100% Atingido</span>
+              </div>
+              <div class="dash-progress-track">
+                <div class="dash-progress-bar" style="width: 100%;"></div>
+              </div>
+            </div>
+
+            <!-- Active Day Pill (Dia 20) -->
+            <div class="dash-day-pill" id="selectedDayPill" data-popup="day" title="Clique para ver o resumo do Dia 20">
+              <div class="day-circle-badge" id="activeDayNumber">20</div>
+              <div class="day-stats-group">
+                <span class="day-fat-info"><span class="kpi-dot dot-fat"></span> Fat: <strong id="activeDayFat">R$ 472,00</strong></span>
+                <span class="day-lucro-info"><span class="kpi-dot dot-lucro"></span> Lucro: <strong id="activeDayLucro">R$ 310,57</strong></span>
+              </div>
+              <button class="day-pill-close" id="dayPillClose" aria-label="Limpar seleção do dia">✕</button>
+            </div>
+
+            <!-- Interactive Bar Chart -->
+            <div class="dash-chart-container">
+              <div class="dash-bars-wrapper" id="dashBarsWrapper">
+                <!-- Daily dynamic stacked bars rendered by JavaScript -->
+              </div>
+            </div>
+
+            <!-- Interactive Hint Badge -->
+            <div class="dash-interactive-hint">
+              <svg class="hint-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122"></path>
+              </svg>
+              <span><strong>Simulador Interativo:</strong> Clique em qualquer valor, métrica ou barra do gráfico para ver a explicação!</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 1: OS 4 PILARES DO GUESBAY -->
+    <section id="recursos" class="features-section">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="badge">Funcionalidades Poderosas</div>
+          <h2 class="section-title">Tudo o que seu negócio precisa para <span class="gradient-text">escalar e lucrar
+              mais</span></h2>
+          <p class="section-subtitle">
+            Elimine a bagunça de cadernos e planilhas desatualizadas. O Guesbay une estoque, finanças, receitas e
+            clientes em um ecossistema intuitivo.
+          </p>
+        </div>
+
+        <div class="features-grid">
+          <!-- Card 1: Estoque & PV -->
+          <div class="feature-card">
+            <div class="feature-icon-wrapper icon-green">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                <line x1="12" y1="22.08" x2="12" y2="12"></line>
+              </svg>
+            </div>
+            <h3 class="feature-title">Controle de Estoque & Pontos de Volume (PV)</h3>
+            <p class="feature-desc">
+              Acompanhe quantidades unitárias e pontos de volume (PV) automaticamente. Suporte a <strong>Modo Vendas ágil</strong>, <strong>Modo Ajuste</strong>, avisos de reposição mínima e leitor de notas fiscais XML.
             </p>
+            <ul class="feature-list">
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Baixa automática no momento da venda</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Cálculo automático de PV total e unitário</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Sincronização e carga ágil por planilha</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Card 2: Custos & Fórmulas -->
+          <div class="feature-card">
+            <div class="feature-icon-wrapper icon-emerald">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="4" y="2" width="16" height="20" rx="2"></rect>
+                <line x1="8" y1="6" x2="16" y2="6"></line>
+                <line x1="16" y1="14" x2="16" y2="18"></line>
+                <path d="M16 10h.01"></path>
+                <path d="M12 10h.01"></path>
+                <path d="M8 10h.01"></path>
+                <path d="M12 14h.01"></path>
+                <path d="M8 14h.01"></path>
+                <path d="M12 18h.01"></path>
+                <path d="M8 18h.01"></path>
+              </svg>
+            </div>
+            <h3 class="feature-title">Calculadora de Custos & Fichas Técnicas</h3>
+            <p class="feature-desc">
+              Descubra o custo exato de cada receita e shake preparado. Precifique corretamente seus produtos para garantir a margem de lucro ideal sem desperdício de insumos.
+            </p>
+            <ul class="feature-list">
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Custo por grama/dose individualizada</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Margem de lucro bruta e líquida projetada</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Pré-registro inteligente de ingredientes</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Card 3: CRM & Retenção -->
+          <div class="feature-card">
+            <div class="feature-icon-wrapper icon-teal">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+              </svg>
+            </div>
+            <h3 class="feature-title">CRM de Clientes & Retenção Ativa</h3>
+            <p class="feature-desc">
+              Conheça as preferências de cada cliente, acompanhe o histórico completo de consumos e receba alertas inteligentes de clientes que não compram há mais de 7 dias.
+            </p>
+            <ul class="feature-list">
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Histórico detalhado de compras e hábitos</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Avaliação física e acompanhamento corporal</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Gestão de programas e desafios nutricionais</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Card 4: IA & Agenda -->
+          <div class="feature-card">
+            <div class="feature-icon-wrapper icon-amber">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2l2.4 7.2h7.6l-6 4.8 2.4 7.2-6.4-4.8-6.4 4.8 2.4-7.2-6-4.8h7.6z"></path>
+              </svg>
+            </div>
+            <h3 class="feature-title">Assistente Lara IA & Gestão do Espaço</h3>
+            <p class="feature-desc">
+              Inteligência Artificial integrada para diagnósticos rápidos de estoque, relatórios operacionais e roteiros de atendimento, além de agenda com calendário integrado.
+            </p>
+            <ul class="feature-list">
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Resumos executivos e alertas operacionais</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Agenda de avaliações físicas e compromissos</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Assistente Copilot exclusivo nos planos PRO e ULTRA</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Card 5: Automação Fiscal & Leitor XML -->
+          <div class="feature-card feature-card-highlight" data-popup="fiscal" title="Clique para ver a simulação da Automação Fiscal e XML">
+            <div class="feature-icon-wrapper icon-purple">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="16" y1="13" x2="8" y2="13"></line>
+                <line x1="16" y1="17" x2="8" y2="17"></line>
+                <polyline points="10 9 9 9 8 9"></polyline>
+              </svg>
+            </div>
+            <div class="feature-card-head-row">
+              <h3 class="feature-title" style="margin-bottom: 0;">Leitor XML & Emissão Fiscal</h3>
+              <span class="badge-new-soft">NOVO</span>
+            </div>
+            <p class="feature-desc">
+              Importe notas fiscais de compra em segundos via XML com cadastro automático de itens e custos. Emita cupons fiscais e DANFE NFC-e pelo app.
+            </p>
+            <ul class="feature-list">
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Importação inteligente de arquivo XML de NF-e</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Alimentação automática de estoque e custos unitários</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Emissão de DANFE NFC-e e Cupom Fiscal para clientes</span>
+              </li>
+            </ul>
+            <span class="feature-card-sim-link">
+              <span>Ver simulação da ferramenta fiscal</span>
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </span>
+          </div>
+
+          <!-- Card 6: Bioimpedância & Acompanhamento -->
+          <div class="feature-card">
+            <div class="feature-icon-wrapper icon-blue">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+              </svg>
+            </div>
+            <h3 class="feature-title">Bioimpedância & Avaliação Física</h3>
+            <p class="feature-desc">
+              Fidelize seus clientes com histórico de evolução corporal, percentual de gordura, massa magra, hidratação e relatórios de progresso.
+            </p>
+            <ul class="feature-list">
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Registro completo de medidas corporais e bioimpedância</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Comparativo visual antes e depois com evolução de metas</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Agenda de retorno integrada aos dados do cliente</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2: SISTEMA DE COMPARTILHAMENTO & EQUIPES -->
+    <section id="compartilhamento" class="sharing-section">
+      <div class="container">
+        <div class="sharing-box">
+          <div class="sharing-content">
+            <div class="badge">Colaboração em Tempo Real</div>
+            <h2 class="sharing-title">Gerencie seu Espaço com <span class="gradient-text">Toda a sua Equipe</span></h2>
+            <p class="sharing-desc">
+              Tem sócios, operadores ou caixas no seu Espaço? O Guesbay conta com um sistema revolucionário de
+              compartilhamento por código de convite de 6 letras.
+            </p>
+
+            <div class="sharing-steps">
+              <div class="step-card">
+                <div class="step-number">1</div>
+                <div class="step-text">
+                  <h4>Crie seu Sistema</h4>
+                  <p>Defina o nome do seu Espaço ou Loja como proprietário.</p>
+                </div>
+              </div>
+
+              <div class="step-card">
+                <div class="step-number">2</div>
+                <div class="step-text">
+                  <h4>Gere o Código de Convite</h4>
+                  <p>Gere um código seguro de 6 letras com apenas um clique.</p>
+                </div>
+              </div>
+
+              <div class="step-card">
+                <div class="step-number">3</div>
+                <div class="step-text">
+                  <h4>Equipe Sincronizada</h4>
+                  <p>Seus colaboradores entram e operam as vendas e estoque juntos em tempo real.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Code Mockup Visual -->
+          <div class="sharing-mockup">
+            <div class="code-card">
+              <div class="code-card-header">
+                <span class="code-tag">Convite de Sistema</span>
+                <span class="code-status">Ativo</span>
+              </div>
+              <div class="code-display">
+                <span class="code-letter">G</span>
+                <span class="code-letter">U</span>
+                <span class="code-letter">E</span>
+                <span class="code-letter">S</span>
+                <span class="code-letter">8</span>
+                <span class="code-letter">8</span>
+              </div>
+              <p class="code-hint">Compartilhe este código com sua equipe para dar acesso instantâneo ao workspace.</p>
+
+              <div class="security-note">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                  <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                </svg>
+                <span>Acessos revogáveis a qualquer momento pelo proprietário</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: DASHBOARDS & MÉTRICAS -->
+    <section id="dashboards" class="dashboard-section">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="badge">Visão Estratégica</div>
+          <h2 class="section-title">Decisões Rápidas com <span class="gradient-text">Dashboards Inteligentes</span></h2>
+          <p class="section-subtitle">
+            Veja onde está o seu lucro e tome ações corretas antes do mês acabar.
+          </p>
         </div>
 
-        <!-- Rendered Sections Container -->
-        <div class="sections-stream" id="sections-stream">
-          <section id="privacy-1" class="legal-card" data-section="privacy-1">
-              <h4 class="font-bold text-on-surface text-[14.5px] flex items-center gap-1.5 mt-4">
-                <span class="w-1.5 h-1.5 rounded-full bg-primary shrink-0"></span>
-                1. Papéis no Tratamento de Dados (Controlador e Operador — Art. 5º da LGPD)
-              </h4>
-              <p class="pl-3 text-on-surface-variant">
-                Nos termos do Artigo 5º da LGPD:
-              </p>
-              <ul class="pl-6 list-disc space-y-1.5 text-on-surface-variant">
-                <li><strong>Distribuidor / Usuário (Controlador):</strong> É a pessoa física ou jurídica gestora do workspace, responsável pela coleta direta dos dados de seus clientes finais, definição das finalidades de negócio e garantia da respectiva base legal (consentimento ou legítimo interesse).</li>
-                <li><strong>Guesbay / Axis-EVS (Operador):</strong> Atua estritamente como provedor de tecnologia de software SaaS e processamento em nuvem, armazenando, indexando e calculando os dados sob comando e instruções do Controlador.</li>
-              </ul>
+        <div class="dashboard-features-grid">
+          <div class="dash-item">
+            <div class="dash-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="12" y1="1" x2="12" y2="23"></line>
+                <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+              </svg>
+            </div>
+            <h4>Faturamento & Lucro Real</h4>
+            <p>Monitore receita bruta, despesas com insumos e o lucro líquido exato de cada período (7d, 15d, 30d, 90d
+              ou personalizado).</p>
+          </div>
+
+          <div class="dash-item">
+            <div class="dash-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
+                <polyline points="17 6 23 6 23 12"></polyline>
+              </svg>
+            </div>
+            <h4>Comparativo Mensal</h4>
+            <p>Compare seu desempenho atual com o mês anterior e identifique se o faturamento e o volume de clientes
+              estão crescendo.</p>
+          </div>
+
+          <div class="dash-item">
+            <div class="dash-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <circle cx="12" cy="12" r="6"></circle>
+                <circle cx="12" cy="12" r="2"></circle>
+              </svg>
+            </div>
+            <h4>Metas & Pontos de Volume</h4>
+            <p>Defina metas mensais de faturamento e pontos de volume (PV) com acompanhamento percentual visual em tempo
+              real.</p>
+          </div>
+
+          <div class="dash-item">
+            <div class="dash-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="8" r="7"></circle>
+                <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+              </svg>
+            </div>
+            <h4>Top Produtos & Ticket Médio</h4>
+            <p>Descubra os produtos e shakes mais vendidos do seu cardápio e acompanhe a margem de lucro e o ticket
+              médio por atendimento.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION FISCAL: AUTOMAÇÃO FISCAL, XML E EMISSÃO NFC-E -->
+    <section id="fiscal" class="fiscal-section">
+      <div class="container">
+        <div class="fiscal-spotlight-box">
+          <div class="fiscal-text-col">
+            <div class="badge fiscal-badge">
+              <span class="badge-dot" style="background: #a855f7;"></span>
+              <span>Novidade Exclusiva</span>
+            </div>
+            <h2 class="fiscal-title">
+              Automação Fiscal: <span class="gradient-text">Leitor XML</span> e Emissão de Notas
+            </h2>
+            <p class="fiscal-desc">
+              Esqueça o cadastro manual de dezenas de itens nota por nota. Com o <strong>Leitor de XML de Notas Fiscais</strong> do Guesbay, você carrega a NF-e do seu fornecedor e o sistema alimenta automaticamente o estoque, os custos de compra e calcula a margem dos seus produtos em segundos.
+            </p>
+
+            <div class="fiscal-highlights">
+              <div class="fiscal-highlight-item">
+                <div class="fiscal-hi-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                    <polyline points="14 2 14 8 20 8"></polyline>
+                    <line x1="12" y1="18" x2="12" y2="12"></line>
+                    <polyline points="9 15 12 12 15 15"></polyline>
+                  </svg>
+                </div>
+                <div>
+                  <strong>Importação de NF-e em 1 Clique</strong>
+                  <p>Lê a chave de acesso e os dados fiscais do XML distribuindo quantidades e custos direto para suas receitas.</p>
+                </div>
+              </div>
+
+              <div class="fiscal-highlight-item">
+                <div class="fiscal-hi-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="6 9 6 2 18 2 18 9"></polyline>
+                    <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+                    <rect x="6" y="14" width="12" height="8"></rect>
+                  </svg>
+                </div>
+                <div>
+                  <strong>Emissão de DANFE & NFC-e (Cupom Fiscal)</strong>
+                  <p>Emita cupons fiscais ao fechar comandas e vendas no balcão de forma integrada e envie o comprovante ao cliente.</p>
+                </div>
+              </div>
+
+              <div class="fiscal-highlight-item">
+                <div class="fiscal-hi-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                    <polyline points="9 12 11 14 15 10"></polyline>
+                  </svg>
+                </div>
+                <div>
+                  <strong>Conformidade & Tranquilidade Contábil</strong>
+                  <p>Organize relatórios de entradas e saídas prontos para exportar para o seu contador.</p>
+                </div>
+              </div>
+
+              <div class="fiscal-highlight-item">
+                <div class="fiscal-hi-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="18" y1="20" x2="18" y2="10"></line>
+                    <line x1="12" y1="20" x2="12" y2="4"></line>
+                    <line x1="6" y1="20" x2="6" y2="14"></line>
+                    <polyline points="4 8 12 2 20 6"></polyline>
+                  </svg>
+                </div>
+                <div>
+                  <strong>Atualização Instantânea de Fichas Técnicas</strong>
+                  <p>O custo por porção e margem de cada produto do seu cardápio é recalculado no mesmo segundo em que a nota é importada.</p>
+                </div>
+              </div>
             </div>
 
-            </section>
-
-<section id="privacy-2" class="legal-card" data-section="privacy-2">
-              <h4 class="font-bold text-on-surface text-[14.5px] flex items-center gap-1.5 mt-4">
-                <span class="w-1.5 h-1.5 rounded-full bg-primary shrink-0"></span>
-                2. Categorias Detalhadas de Dados Pessoais e Declaração de Ausência de Rastreadores Publicitários
-              </h4>
-              <p class="pl-3 text-on-surface-variant">
-                <strong>DECLARAÇÃO EXPRESSA DE AUSÊNCIA DE RASTREADORES PUBLICITÁRIOS:</strong> O aplicativo Guesbay <strong>NÃO CONTÉM Google Analytics, NÃO CONTÉM Firebase Analytics, NÃO CONTÉM Pixel da Meta e NÃO UTILIZA nenhum SDK espião ou corretor de dados</strong>. Todas as análises operacionais (como turnos de pico e faturamento por dia) são calculadas localmente ou através do banco de dados isolado do próprio usuário.
-              </p>
-              <p class="pl-3 text-on-surface-variant">
-                Coletamos e tratamos exclusivamente os dados necessários para o fornecimento das ferramentas operacionais contratadas:
-              </p>
-              <ul class="pl-6 list-disc space-y-1.5 text-on-surface-variant">
-                <li><strong>Dados Cadastrais da Conta:</strong> Nome completo, endereço de e-mail, credencial de acesso criptografada com algoritmo de dispersão seguro (Argon2/bcrypt), identificador único no banco de dados (UID) e permissões de cargo. (Base legal: Execução de Contrato — LGPD Art. 7º, V).</li>
-                <li><strong>Dados de Clientes (CRM):</strong> Nome, telefone celular/WhatsApp, gênero, anotações de preferências, histórico de comandas, créditos pré-pagos, débitos em aberto (fiado) e histórico de comparecimento. (Tratados sob responsabilidade direta do Controlador).</li>
-                <li><strong>Dados Pessoais Sensíveis de Saúde e Composição Corporal (LGPD Art. 11):</strong> Registros de bioimpedância e antropometria fornecidos voluntariamente na Avaliação Física (peso, altura, IMC, % de gordura, gordura visceral, massa muscular, taxa metabólica basal, idade biológica, água corporal, massa óssea, circunferências e fotos de evolução corporal). (Base legal: Consentimento Específico e Proteção da Saúde — LGPD Art. 11, I e II, 'f').</li>
-                <li><strong>Canais de Comunicação Oficiais:</strong> Números de WhatsApp Business, perfis de Instagram, links de Messenger, canais de Telegram e contatos de Zalo cadastrados pelo usuário para acionamento direto via aplicativo nativo.</li>
-                <li><strong>Agenda do Espaço e Desafios de Bem-Estar:</strong> Eventos, treinamentos, lembretes de retorno para reavaliação de clientes, canais de desafios (5 a 90 dias) e registros periódicos de pesagens.</li>
-                <li><strong>Dados Operacionais, Fiscais e Financeiros:</strong> Estoques, receitas técnicas, faturamento, recebíveis, custos fixos, arquivos XML de Nota Fiscal Eletrônica (chave de acesso, CNPJ, itens e alíquotas) e planilhas (.xlsx).</li>
-                <li><strong>Interações com Assistente IA:</strong> Prompts em texto, fotos/documentos anexados (fichas, notas, rótulos) e gravações de áudio por voz submetidas à transcrição.</li>
-              </ul>
+            <div style="margin-top: 1.5rem;">
+              <button class="btn btn-primary" data-popup="fiscal" style="background: linear-gradient(135deg, #7c3aed, #9333ea);">
+                <span>Experimentar Simulação Fiscal</span>
+                <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </button>
             </div>
+          </div>
 
-            </section>
+          <!-- Mockup Visual Fiscal -->
+          <div class="fiscal-visual-col">
+            <div class="nfe-card-preview">
+              <div class="nfe-card-header">
+                <div class="nfe-chip-status">
+                  <span class="nfe-pulse"></span>
+                  <span>XML Processado com Sucesso</span>
+                </div>
+                <span class="nfe-number">NF-e 000.418.912</span>
+              </div>
 
-<section id="privacy-3" class="legal-card" data-section="privacy-3">
-              <h4 class="font-bold text-on-surface text-[14.5px] flex items-center gap-1.5 mt-4">
-                <span class="w-1.5 h-1.5 rounded-full bg-primary shrink-0"></span>
-                3. Tratamento de Dados por Inteligência Artificial (IA), Memórias Persistentes, Expurgo de 48h e Revisão Humana (LGPD Art. 20)
-              </h4>
-              <p class="pl-3 text-on-surface-variant">
-                As interações com o Assistente IA são processadas com protocolos avançados de privacidade e governança:
-              </p>
-              <ul class="pl-6 list-disc space-y-1.5 text-on-surface-variant">
-                <li><strong>Expurgo Automático de Conversas (48 horas):</strong> O histórico efêmero de bate-papo com a IA é armazenado apenas no cache local seguro do aparelho do usuário e é <strong>definitiva e automaticamente apagado a cada 48 horas (2 dias)</strong>.</li>
-                <li><strong>Memórias Persistentes do Espaço (system_ai_memories):</strong> A funcionalidade de Memória da IA permite guardar diretrizes operacionais do Espaço (perfil de negócio, metas, desafios e preferências). Essas memórias ficam isoladas com Row Level Security (RLS) e o usuário tem controle total para visualizar, editar ou excluir qualquer memória em tempo real.</li>
-                <li><strong>Privacidade Absoluta de Treinamento:</strong> Nenhum dado comercial, cliente, imagem, áudio ou conversa do usuário é utilizado para treinar ou refinar modelos públicos de inteligência artificial de terceiros. As chamadas à API (Google Gemini 3.5 Flash) operam sob cláusulas corporativas estritas de zero retenção.</li>
-                <li><strong>Direito à Explicação e Revisão Humana de Decisões Automatizadas (LGPD Art. 20):</strong> Todas as análises produzidas pela IA possuem natureza de auxílio consultivo. O titular de dados possui o direito assegurado de solicitar a revisão humana de quaisquer decisões automatizadas que afetem seus interesses, bem como obter esclarecimentos sobre os critérios e procedimentos utilizados pelo algoritmo.</li>
-              </ul>
+              <div class="nfe-details">
+                <div class="nfe-detail-row">
+                  <span class="nfe-label">Fornecedor:</span>
+                  <strong class="nfe-val">Distribuidora Nutri Life Ltda</strong>
+                </div>
+                <div class="nfe-detail-row">
+                  <span class="nfe-label">Chave de Acesso:</span>
+                  <span class="nfe-key">3526 1004 9128 4400 0182 5500 1000 ...</span>
+                </div>
+                <div class="nfe-detail-row">
+                  <span class="nfe-label">Itens Identificados:</span>
+                  <strong class="nfe-val" style="color: #c084fc;">14 produtos prontos p/ estoque</strong>
+                </div>
+              </div>
+
+              <div class="nfe-items-table">
+                <div class="nfe-table-row nfe-th">
+                  <span>Produto / Insumo</span>
+                  <span>Qtd</span>
+                  <span>Custo Unit.</span>
+                  <span>Ação</span>
+                </div>
+                <div class="nfe-table-row">
+                  <span class="nfe-item-name">Shake Baunilha Cremoso 550g</span>
+                  <span>12 un</span>
+                  <span>R$ 89,50</span>
+                  <span class="nfe-tag-ok">Atualizado</span>
+                </div>
+                <div class="nfe-table-row">
+                  <span class="nfe-item-name">Proteína Concentrada 240g</span>
+                  <span>8 un</span>
+                  <span>R$ 64,20</span>
+                  <span class="nfe-tag-ok">Atualizado</span>
+                </div>
+                <div class="nfe-table-row">
+                  <span class="nfe-item-name">Bebida Herbal Concentrada</span>
+                  <span>10 un</span>
+                  <span>R$ 112,00</span>
+                  <span class="nfe-tag-ok">Atualizado</span>
+                </div>
+              </div>
+
+              <div class="nfe-card-footer">
+                <div class="nfe-footer-stat">
+                  <span>VALOR TOTAL DA NOTA</span>
+                  <strong>R$ 2.705,60</strong>
+                </div>
+                <div class="nfe-footer-badge">
+                  <span>PV Total: +342.80</span>
+                </div>
+              </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-            </section>
-
-<section id="privacy-4" class="legal-card" data-section="privacy-4">
-              <h4 class="font-bold text-on-surface text-[14.5px] flex items-center gap-1.5 mt-4">
-                <span class="w-1.5 h-1.5 rounded-full bg-primary shrink-0"></span>
-                4. Identificadores de Dispositivo (Device ID / ANDROID_ID) e Segurança de Sessão Única
-              </h4>
-              <p class="pl-3 text-on-surface-variant">
-                Para proteger as contas contra acessos simultâneos não autorizados e vazamento de credenciais, o aplicativo coleta e armazena o identificador de hardware do aparelho (ANDROID_ID no Android nativo ou UUID seguro em navegadores).
-              </p>
-              <p class="pl-3 text-on-surface-variant">
-                <strong>Base Legal:</strong> Esse tratamento fundamenta-se no Legítimo Interesse do Controlador e do Operador (LGPD Art. 7º, IX) e no cumprimento de obrigação legal de segurança da informação (Marco Civil da Internet, Art. 15), destinando-se unicamente à prevenção contra fraudes e autenticação de sessão.
-              </p>
-            </div>
-
-            </section>
-
-<section id="privacy-5" class="legal-card" data-section="privacy-5">
-              <h4 class="font-bold text-on-surface text-[14.5px] flex items-center gap-1.5 mt-4">
-                <span class="w-1.5 h-1.5 rounded-full bg-primary shrink-0"></span>
-                5. Trilhas de Auditoria e Logs Probatórios do Sistema (system_deletions e legal_consents_log)
-              </h4>
-              <p class="pl-3 text-on-surface-variant">
-                Sempre que um registro (cliente, comanda, avaliação física, movimentação de estoque ou meta) é excluído do workspace, o sistema grava automaticamente um registro de auditoria na tabela <code>system_deletions</code>, contendo: identificador do operador responsável, nome do usuário, data/hora e tipo de entidade removida.
-              </p>
-              <p class="pl-3 text-on-surface-variant">
-                Adicionalmente, os registros probatórios de aceite aos Termos de Uso e Política de Privacidade são mantidos de forma segura e auditável na tabela <code>legal_consents_log</code>, contendo identificador do titular, e-mail, carimbo de data/hora (timestamp), versão do documento legal e dados técnicos de cabeçalho do cliente (User-Agent).
-              </p>
-            </div>
-
-            </section>
-
-<section id="privacy-6" class="legal-card" data-section="privacy-6">
-              <h4 class="font-bold text-on-surface text-[14.5px] flex items-center gap-1.5 mt-4">
-                <span class="w-1.5 h-1.5 rounded-full bg-primary shrink-0"></span>
-                6. Sincronização de Calendário, Tarefas em Segundo Plano e Permissões do Aplicativo
-              </h4>
-              <p class="pl-3 text-on-surface-variant">
-                Nos aplicativos móveis (Android e iOS), o Guesbay solicita exclusivamente as permissões técnicas necessárias:
-              </p>
-              <ul class="pl-6 list-disc space-y-1.5 text-on-surface-variant">
-                <li><strong>Arquivos e Mídia:</strong> Importação de arquivos XML de notas fiscais, planilhas Excel e download de relatórios em PDF.</li>
-                <li><strong>Câmera e Fotos:</strong> Anexo voluntário de comprovantes, fotos de evolução corporal em avaliações e imagens enviadas ao Assistente IA.</li>
-                <li><strong>Microfone:</strong> Utilizado unicamente no momento em que o usuário segura ou aciona o botão de gravação de áudio no Assistente IA.</li>
-                <li><strong>Notificações:</strong> Disparo de avisos locais de compromissos da agenda, reavaliações agendadas, metas diárias e alertas de estoque baixo.</li>
-                <li><strong>Calendário e Execução na Inicialização (Boot):</strong> Sincronização de eventos da Agenda do Espaço com o Google Agenda e serviços em segundo plano (CalendarSyncJobService) para manter os alarmes atualizados após reiniciar o aparelho.</li>
-              </ul>
-            </div>
-
-            </section>
-
-<section id="privacy-7" class="legal-card" data-section="privacy-7">
-              <h4 class="font-bold text-on-surface text-[14.5px] flex items-center gap-1.5 mt-4">
-                <span class="w-1.5 h-1.5 rounded-full bg-primary shrink-0"></span>
-                7. Segurança dos Canais de Comunicação Oficiais
-              </h4>
-              <p class="pl-3 text-on-surface-variant">
-                Os canais de atendimento direto configurados pelo gestor (WhatsApp, Instagram, Telegram, Messenger e Zalo) são armazenados com isolamento lógico estrito por workspace (<code>system_id</code>). O disparo de conversas direciona o usuário diretamente aos aplicativos oficiais dos provedores via deep links universais, sem retenção de tráfego de mensagens intermediárias nos servidores do Guesbay.
-              </p>
-            </div>
-
-            </section>
-
-<section id="privacy-8" class="legal-card" data-section="privacy-8">
-              <h4 class="font-bold text-on-surface text-[14.5px] flex items-center gap-1.5 mt-4">
-                <span class="w-1.5 h-1.5 rounded-full bg-primary shrink-0"></span>
-                8. Finalidade Estrita e Zero Comercialização de Dados Pessoais
-              </h4>
-              <p class="pl-3 text-on-surface-variant">
-                Todas as informações tratadas destinam-se exclusivamente à operacionalização do software SaaS contratado. <strong>O Guesbay NUNCA comercializa, NUNCA aluga e NUNCA compartilha dados pessoais ou comerciais com anunciantes, redes de anúncios direcionados ou corretores de dados (data brokers).</strong>
-              </p>
-            </div>
-
-            </section>
-
-<section id="privacy-9" class="legal-card" data-section="privacy-9">
-              <h4 class="font-bold text-on-surface text-[14.5px] flex items-center gap-1.5 mt-4">
-                <span class="w-1.5 h-1.5 rounded-full bg-primary shrink-0"></span>
-                9. Compartilhamento Técnico com Subprocessadores de Infraestrutura e IA (Resolução CD/ANPD nº 19/2024)
-              </h4>
-              <p class="pl-3 text-on-surface-variant">
-                O compartilhamento de dados ocorre unicamente com subprocessadores essenciais de infraestrutura em nuvem, selecionados sob rígidos padrões de segurança e com salvaguardas contratuais equivalentes às Cláusulas-Padrão Contratuais (CPCs) da ANPD:
-              </p>
-              <ul class="pl-6 list-disc space-y-1.5 text-on-surface-variant">
-                <li><strong>Hospedagem em Nuvem e Banco de Dados:</strong> Supabase Inc. (infraestrutura AWS e Google Cloud Platform), com criptografia at-rest (AES-256) e in-transit (TLS 1.3).</li>
-                <li><strong>Modelos de Inteligência Artificial:</strong> Google LLC (Google Gemini 3.5 Flash), para processamento de linguagem natural, visão computacional e transcrição de áudio, com termos de zero retenção corporativa.</li>
-                <li><strong>Gestão de Assinaturas In-App:</strong> RevenueCat Inc., Google Play Store e Apple App Store, para processamento seguro de pagamentos e validação de licenças ativas.</li>
-                <li><strong>Cache Serverless em Borda:</strong> Upstash Inc. para otimização de requisições e rate limiting.</li>
-              </ul>
-            </div>
-
-            </section>
-
-<section id="privacy-10" class="legal-card" data-section="privacy-10">
-              <h4 class="font-bold text-on-surface text-[14.5px] flex items-center gap-1.5 mt-4">
-                <span class="w-1.5 h-1.5 rounded-full bg-primary shrink-0"></span>
-                10. Segurança da Informação, Isolamento Lógico e Row Level Security (RLS)
-              </h4>
-              <p class="pl-3 text-on-surface-variant">
-                Adotamos arquitetura de segurança multicamadas: isolamento lógico rigoroso por <strong>Row Level Security (RLS)</strong> no PostgreSQL garantindo segregação total entre workspaces (<code>system_id</code>), comunicação 100% criptografada via HTTPS/TLS 1.3 e proteção contra injeção de comandos ou acessos não autorizados.
-              </p>
-            </div>
-
-            </section>
-
-<section id="privacy-11" class="legal-card" data-section="privacy-11">
-              <h4 class="font-bold text-on-surface text-[14.5px] flex items-center gap-1.5 mt-4">
-                <span class="w-1.5 h-1.5 rounded-full bg-primary shrink-0"></span>
-                11. Armazenamento Local, Cache e Ausência de Rastreadores Publicitários
-              </h4>
-              <p class="pl-3 text-on-surface-variant">
-                Utilizamos armazenamento local (localStorage / Preferences) estritamente para preferências operacionais de interface (idioma, moeda selecionada, tema visual, tokens de autenticação da sessão e cache temporário offline). A plataforma não utiliza cookies de rastreamento de terceiros para publicidade comportamental.
-              </p>
-            </div>
-
-            </section>
-
-<section id="privacy-12" class="legal-card" data-section="privacy-12">
-              <h4 class="font-bold text-on-surface text-[14.5px] flex items-center gap-1.5 mt-4">
-                <span class="w-1.5 h-1.5 rounded-full bg-primary shrink-0"></span>
-                12. Transferência Internacional de Dados Pessoais (Capítulo V da LGPD)
-              </h4>
-              <p class="pl-3 text-on-surface-variant">
-                Os dados tratados pela plataforma podem ser armazenados em servidores de nuvem de alta segurança localizados nos Estados Unidos da América ou na União Europeia (datacenters da Supabase/AWS/Google Cloud). Essas transferências obedecem ao Capítulo V da LGPD e à Resolução CD/ANPD nº 19/2024, apoiadas em Cláusulas Contratuais Padrão e medidas técnicas equivalentes às normas brasileiras.
-              </p>
-            </div>
-
-            </section>
-
-<section id="privacy-13" class="legal-card" data-section="privacy-13">
-              <h4 class="font-bold text-on-surface text-[14.5px] flex items-center gap-1.5 mt-4">
-                <span class="w-1.5 h-1.5 rounded-full bg-primary shrink-0"></span>
-                13. Direitos dos Titulares (LGPD Art. 18) e Ferramentas de Autoatendimento
-              </h4>
-              <p class="pl-3 text-on-surface-variant">
-                O Guesbay assegura o exercício integral dos direitos previstos no Artigo 18 da LGPD:
-              </p>
-              <ul class="pl-6 list-disc space-y-1.5 text-on-surface-variant">
-                <li><strong>Acesso e Confirmação:</strong> Consulta de informações cadastradas a qualquer momento.</li>
-                <li><strong>Correção e Atualização:</strong> Edição direta de cadastros de clientes, estoques e receitas.</li>
-                <li><strong>Portabilidade:</strong> Exportação de relatórios financeiros, comandas e avaliações em formatos universais (PDF e planilhas).</li>
-                <li><strong>Eliminação Definitiva:</strong> Botões de exclusão direta de clientes, avaliações, comandas e estoques disponíveis na interface do app.</li>
-              </ul>
-            </div>
-
-            </section>
-
-<section id="privacy-14" class="legal-card" data-section="privacy-14">
-              <h4 class="font-bold text-on-surface text-[14.5px] flex items-center gap-1.5 mt-4">
-                <span class="w-1.5 h-1.5 rounded-full bg-primary shrink-0"></span>
-                14. Guarda Obrigatória de Registros Telemáticos (Marco Civil Art. 15) vs. Expurgo Imediato
-              </h4>
-              <p class="pl-3 text-on-surface-variant">
-                <strong>Segregação entre Expurgo Operacional e Dever Legal de Guarda:</strong> Mediante a solicitação de cancelamento ou exclusão, todos os dados cadastrais e operacionais do espaço são removidos das tabelas ativas. Contudo, em estrito cumprimento ao artigo 15 da Lei nº 12.965/2014 (Marco Civil da Internet), o Guesbay mantém os registros de acesso a aplicações de internet (data, hora, endereço IP e sessão) sob sigilo absoluto pelo prazo legal obrigatório de <strong>6 (seis) meses</strong>. Contas inativas sem assinatura por mais de 12 meses consecutivos poderão sofrer expurgo automático.
-              </p>
-            </div>
-
-            </section>
-
-<section id="privacy-15" class="legal-card" data-section="privacy-15">
-              <h4 class="font-bold text-on-surface text-[14.5px] flex items-center gap-1.5 mt-4">
-                <span class="w-1.5 h-1.5 rounded-full bg-primary shrink-0"></span>
-                15. Fluxo de Exclusão de Conta e Dados (Diretrizes Google Play Store & Apple App Store Guideline 5.1.1v)
-              </h4>
-              <p class="pl-3 text-on-surface-variant">
-                Em conformidade obrigatória com os requisitos de Segurança de Dados do Google Play Console e com a Guideline 5.1.1(v) da Apple App Store, o usuário dispõe de um mecanismo de exclusão completa de sua conta diretamente no aplicativo móvel:
-              </p>
-              <ul class="pl-6 list-disc space-y-1.5 text-on-surface-variant">
-                <li><strong>Exclusão Direta no App:</strong> Acessível a qualquer momento em <strong>Configurações &gt; Zona de Perigo &gt; Excluir Espaço / Conta Definitivamente</strong>.</li>
-                <li><strong>Canal Externo de Exclusão via Web:</strong> Usuários que não possuam mais o aplicativo instalado podem solicitar a exclusão integral de sua conta e dados associados enviando requisição a partir do e-mail cadastrado para <strong>axisevs@gmail.com</strong> ou acessando nossa página institucional em <strong>https://guesbay.axisevs.com/</strong>.</li>
-              </ul>
-            </div>
-
-            </section>
-
-<section id="privacy-16" class="legal-card" data-section="privacy-16">
-              <h4 class="font-bold text-on-surface text-[14.5px] flex items-center gap-1.5 mt-4">
-                <span class="w-1.5 h-1.5 rounded-full bg-primary shrink-0"></span>
-                16. Notificação de Incidentes de Segurança e Contato do Encarregado de Proteção de Dados (DPO — Resolução CD/ANPD nº 18/2024)
-              </h4>
-              <p class="pl-3 text-on-surface-variant">
-                Em estrita observância ao Artigo 48 da LGPD, na hipótese de qualquer incidente de segurança que possa acarretar risco ou dano relevante aos titulares, o Guesbay comunicará o fato com presteza aos usuários afetados e à Autoridade Nacional de Proteção de Dados (ANPD).
-              </p>
-              <p class="pl-3 text-on-surface-variant">
-                Para esclarecimento de dúvidas, requisições de titulares de dados ou comunicações formais, nosso <strong>Encarregado pelo Tratamento de Dados Pessoais (DPO)</strong>, em consonância com a Resolução CD/ANPD nº 18/2024, atende diretamente através do canal institucional oficial: <strong>axisevs@gmail.com</strong>.
-              </p>
-            </section>
+    <!-- SECTION 4: TABELA DE PLANOS DE ASSINATURA -->
+    <section id="planos" class="pricing-section">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="badge">Planos Transparentes</div>
+          <h2 class="section-title">Escolha o plano ideal para a <span class="gradient-text">sua jornada</span></h2>
+          <p class="section-subtitle">
+            Comece 100% grátis e evolua conforme seu negócio crescer.
+          </p>
         </div>
 
-        <!-- Document Bottom Actions -->
-        <div class="bottom-actions-bar">
-          <button type="button" class="back-to-top-btn" id="back-to-top-btn">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="19" x2="12" y2="5"/><polyline points="5 12 12 5 19 12"/></svg>
-            <span id="back-top-label">Voltar ao Topo</span>
-          </button>
-          <div class="action-right-group">
-            <button type="button" class="share-doc-btn" id="share-doc-btn">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
-              <span id="copy-link-label">Copiar Link do Documento</span>
-            </button>
+        <!-- Alerta de Contratação Exclusiva no App Android -->
+        <div class="subscription-exclusive-banner">
+          <div class="exclusive-icon">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M17.523 15.3414c-.5511 0-.9993-.4486-.9993-.9997s.4482-.9993.9993-.9993c.551 0 .9993.4482.9993.9993.0001.5511-.4483.9997-.9993.9997m-11.046 0c-.5511 0-.9993-.4486-.9993-.9997s.4482-.9993.9993-.9993c.5511 0 .9993.4482.9993.9993 0 .5511-.4482.9997-.9993.9997m11.4045-6.02l1.996-3.4572c.1561-.2705.0634-.6163-.2071-.7724-.2705-.1562-.6164-.0635-.7725.207l-2.0236 3.5048C15.3463 8.2435 13.7225 7.852 12 7.852c-1.7225 0-3.3463.3915-4.8743 1.0516L5.102 5.3988c-.1561-.2705-.502-.3632-.7725-.207-.2705.1561-.3632.5019-.2071.7724l1.996 3.4572C2.7093 11.229.4344 14.8812.4344 19.1235h23.1312c0-4.2423-2.2749-7.8945-5.6851-9.8021" />
+            </svg>
+          </div>
+          <div class="exclusive-content">
+            <h4 class="exclusive-title">Contratação de Planos Exclusiva via Aplicativo Android</h4>
+            <p class="exclusive-text">
+              A assinatura dos planos <strong>PLUS</strong>, <strong>PRO</strong> e <strong>ULTRA</strong> só pode ser contratada
+              <strong>diretamente no aplicativo instalado pelo Google Play Store</strong> no seu celular Android.
+              <br class="hidden-mobile">
+              Não é possível contratar planos pela versão Web no navegador. Após assinar pelo app, todos os recursos são
+              liberados automaticamente para você acessar tanto no celular quanto no computador.
+            </p>
           </div>
         </div>
 
-      </article>
+        <div class="pricing-grid">
+          <!-- PLANO BASIC -->
+          <div class="pricing-card tier-basic">
+            <div class="pricing-header text-center">
+              <div class="plan-crystal-icon crystal-basic">
+                <svg viewBox="0 0 32 32" class="crystal-svg" aria-label="Plano BASIC" role="img">
+                  <defs>
+                    <linearGradient id="grad-basic-tbl" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" stop-color="#CBD5E1" />
+                      <stop offset="70%" stop-color="#94A3B8" />
+                      <stop offset="100%" stop-color="#64748B" />
+                    </linearGradient>
+                    <linearGradient id="grad-basic-ctr" x1="0%" y1="0%" x2="0%" y2="100%">
+                      <stop offset="0%" stop-color="#E2E8F0" />
+                      <stop offset="40%" stop-color="#94A3B8" />
+                      <stop offset="85%" stop-color="#64748B" />
+                      <stop offset="100%" stop-color="#475569" />
+                    </linearGradient>
+                    <linearGradient id="grad-basic-sl" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" stop-color="#F1F5F9" />
+                      <stop offset="50%" stop-color="#CBD5E1" />
+                      <stop offset="100%" stop-color="#94A3B8" />
+                    </linearGradient>
+                    <linearGradient id="grad-basic-sr" x1="100%" y1="0%" x2="0%" y2="100%">
+                      <stop offset="0%" stop-color="#64748B" />
+                      <stop offset="65%" stop-color="#475569" />
+                      <stop offset="100%" stop-color="#334155" />
+                    </linearGradient>
+                  </defs>
+                  <g stroke="#475569" stroke-width="0.5" stroke-linejoin="round">
+                    <polygon points="11,7.5 21,7.5 18.5,12.5 13.5,12.5" fill="url(#grad-basic-tbl)" />
+                    <polygon points="11,7.5 13.5,12.5 5.5,13" fill="url(#grad-basic-sl)" />
+                    <polygon points="21,7.5 26.5,13 18.5,12.5" fill="url(#grad-basic-sr)" />
+                    <polygon points="13.5,12.5 18.5,12.5 16,27" fill="url(#grad-basic-ctr)" />
+                    <polygon points="5.5,13 13.5,12.5 16,27" fill="url(#grad-basic-sl)" opacity="0.85" />
+                    <polygon points="26.5,13 18.5,12.5 16,27" fill="url(#grad-basic-sr)" opacity="0.85" />
+                    <line x1="16" y1="12.5" x2="16" y2="27" stroke="#E2E8F0" stroke-width="0.4" stroke-opacity="0.5" />
+                  </g>
+                  <line x1="12" y1="8" x2="20" y2="8" stroke="#FFFFFF" stroke-width="0.5" stroke-linecap="round" stroke-opacity="0.6" />
+                </svg>
+              </div>
+              <span class="plan-type">Iniciante</span>
+              <h3 class="plan-name">BASIC</h3>
+              <p class="plan-desc">Para quem está começando a organizar sua operação local.</p>
+              <div class="plan-price plan-price-centered">
+                <span class="price-val">Grátis</span>
+                <span class="price-period">para sempre</span>
+              </div>
+            </div>
 
-    </div>
+            <div class="plan-divider"></div>
+
+            <!-- Destaques Rápidos Compactos -->
+            <div class="plan-quick-summary">
+              <span class="quick-pill">
+                <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+                1 sistema próprio
+              </span>
+              <span class="quick-pill">
+                <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
+                Até 10 itens estoque
+              </span>
+              <span class="quick-pill">
+                <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                Clientes ilimitados
+              </span>
+            </div>
+
+            <!-- Botão Saiba Mais (Expansão) -->
+            <button class="plan-expand-btn" aria-expanded="false" data-plan="basic">
+              <span>Saiba mais</span>
+              <svg class="chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </button>
+
+            <!-- Lista Expansível -->
+            <div class="plan-features-collapse">
+              <ul class="plan-features">
+                <li class="feat-allowed"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Criar 1 sistema próprio</span></li>
+                <li class="feat-disabled"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg><span>Entrar em sistemas compartilhados</span></li>
+                <li class="feat-allowed"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Cadastrar estoque (até 10 produtos)</span></li>
+                <li class="feat-disabled"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg><span>Pré-registro automático de estoque</span></li>
+                <li class="feat-allowed"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Cálculo de custos (até 10 itens)</span></li>
+                <li class="feat-allowed"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Custo de produtos (até 10 receitas)</span></li>
+                <li class="feat-disabled"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg><span>Pré-registro automático de custos</span></li>
+                <li class="feat-allowed"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Cadastrar clientes ilimitados</span></li>
+                <li class="feat-allowed"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Tabela de preços</span></li>
+                <li class="feat-allowed"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Assistente IA e Atividades Recentes</span></li>
+                <li class="feat-disabled"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg><span>Entradas de estoque</span></li>
+                <li class="feat-disabled"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg><span>Atualização de estoque por planilha</span></li>
+                <li class="feat-disabled"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg><span>Gestão de programas</span></li>
+                <li class="feat-disabled"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg><span>CRM de vendas e atendimentos</span></li>
+                <li class="feat-disabled"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg><span>Dashboard financeiro</span></li>
+                <li class="feat-disabled"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg><span>Dashboard de estoque e consumo</span></li>
+                <li class="feat-disabled"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg><span>Metas e desafios</span></li>
+                <li class="feat-disabled"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg><span>Sobre cada cliente (perfil detalhado)</span></li>
+                <li class="feat-disabled"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg><span>Cálculos de faturamento e lucro</span></li>
+                <li class="feat-disabled"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg><span>Histórico de vendas registradas e confirmadas</span></li>
+                <li class="feat-disabled"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg><span>Avaliação física de clientes</span></li>
+                <li class="feat-disabled"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg><span>Agenda do Espaço (bioimpedâncias e eventos)</span></li>
+              </ul>
+            </div>
+
+            <!-- Botão de Ação Ancorado -->
+            <div class="pricing-card-footer">
+              <a href="https://guesbay.axisevs.com/" target="_blank" rel="noopener noreferrer"
+                class="btn btn-outline btn-block">
+                Começar Grátis (Web ou App)
+              </a>
+            </div>
+          </div>
+
+          <!-- PLANO PLUS -->
+          <div class="pricing-card tier-plus">
+            <div class="pricing-header text-center">
+              <div class="plan-crystal-icon crystal-plus">
+                <svg viewBox="0 0 32 32" class="crystal-svg" aria-label="Plano PLUS" role="img">
+                  <defs>
+                    <linearGradient id="grad-plus-tbl" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" stop-color="#93C5FD"/>
+                      <stop offset="60%" stop-color="#3B82F6"/>
+                      <stop offset="100%" stop-color="#2563EB"/>
+                    </linearGradient>
+                    <linearGradient id="grad-plus-ctr" x1="0%" y1="0%" x2="0%" y2="100%">
+                      <stop offset="0%" stop-color="#DBEAFE"/>
+                      <stop offset="35%" stop-color="#60A5FA"/>
+                      <stop offset="80%" stop-color="#2563EB"/>
+                      <stop offset="100%" stop-color="#1D4ED8"/>
+                    </linearGradient>
+                    <linearGradient id="grad-plus-sl" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" stop-color="#EFF6FF"/>
+                      <stop offset="45%" stop-color="#60A5FA"/>
+                      <stop offset="100%" stop-color="#2563EB"/>
+                    </linearGradient>
+                    <linearGradient id="grad-plus-sr" x1="100%" y1="0%" x2="0%" y2="100%">
+                      <stop offset="0%" stop-color="#2563EB"/>
+                      <stop offset="65%" stop-color="#1D4ED8"/>
+                      <stop offset="100%" stop-color="#1E3A8A"/>
+                    </linearGradient>
+                    <linearGradient id="grad-plus-str" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" stop-color="#FFFFFF"/>
+                      <stop offset="60%" stop-color="#93C5FD"/>
+                      <stop offset="100%" stop-color="#3B82F6"/>
+                    </linearGradient>
+                  </defs>
+                  <g stroke="#1E3A8A" stroke-width="0.5" stroke-linejoin="round">
+                    <polygon points="11,7.5 21,7.5 18.5,12.5 13.5,12.5" fill="url(#grad-plus-tbl)"/>
+                    <polygon points="11,7.5 13.5,12.5 5.5,13" fill="url(#grad-plus-sl)"/>
+                    <polygon points="21,7.5 26.5,13 18.5,12.5" fill="url(#grad-plus-sr)"/>
+                    <polygon points="13.5,12.5 18.5,12.5 16,27" fill="url(#grad-plus-ctr)"/>
+                    <polygon points="5.5,13 13.5,12.5 16,27" fill="url(#grad-plus-sl)" opacity="0.9"/>
+                    <polygon points="26.5,13 18.5,12.5 16,27" fill="url(#grad-plus-sr)" opacity="0.9"/>
+                    <line x1="16" y1="12.5" x2="16" y2="27" stroke="#DBEAFE" stroke-width="0.5" stroke-opacity="0.7"/>
+                  </g>
+                  <line x1="12" y1="8" x2="20" y2="8" stroke="#FFFFFF" stroke-width="0.6" stroke-linecap="round" stroke-opacity="0.8"/>
+                  <path d="M 26 3 Q 26 5.5 28.5 5.5 Q 26 5.5 26 8 Q 26 5.5 23.5 5.5 Q 26 5.5 26 3 Z" fill="url(#grad-plus-str)"/>
+                  <circle cx="26" cy="5.5" r="0.6" fill="#FFFFFF"/>
+                </svg>
+              </div>
+              <span class="plan-type text-emerald">Crescimento</span>
+              <h3 class="plan-name">PLUS</h3>
+              <p class="plan-desc">Ideal para entrar em sistemas compartilhados e estoque ilimitado.</p>
+              <div class="plan-price plan-price-centered">
+                <span class="currency">R$</span>
+                <span class="price-val">4</span>
+                <span class="price-cents">,99</span>
+                <span class="price-period">/mês</span>
+              </div>
+            </div>
+
+            <div class="plan-divider"></div>
+
+            <!-- Destaques Rápidos Compactos -->
+            <div class="plan-quick-summary">
+              <span class="quick-pill">
+                <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+                Até 2 sistemas
+              </span>
+              <span class="quick-pill">
+                <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg>
+                5 compartilhados
+              </span>
+              <span class="quick-pill">
+                <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path></svg>
+                Estoque ilimitado
+              </span>
+            </div>
+
+            <!-- Botão Saiba Mais (Expansão) -->
+            <button class="plan-expand-btn" aria-expanded="false" data-plan="plus">
+              <span>Saiba mais</span>
+              <svg class="chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </button>
+
+            <!-- Lista Expansível -->
+            <div class="plan-features-collapse">
+              <ul class="plan-features">
+                <li class="feat-allowed"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Criar até 2 sistemas próprios</span></li>
+                <li class="feat-allowed"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Entrar em até 5 sistemas compartilhados</span></li>
+                <li class="feat-allowed"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Cadastrar estoque ilimitado</span></li>
+                <li class="feat-allowed"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Pré-registro automático de estoque</span></li>
+                <li class="feat-allowed"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Cálculo de custos ilimitado</span></li>
+                <li class="feat-allowed"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Custo de produtos ilimitado</span></li>
+                <li class="feat-allowed"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Pré-registro automático de custos</span></li>
+                <li class="feat-allowed"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Cadastrar clientes ilimitados</span></li>
+                <li class="feat-allowed"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Tabela de preços</span></li>
+                <li class="feat-allowed"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Assistente IA e Atividades Recentes</span></li>
+                <li class="feat-allowed"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Entradas de estoque</span></li>
+                <li class="feat-allowed"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Atualização de estoque por planilha</span></li>
+                <li class="feat-allowed"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Gestão de programas</span></li>
+                <li class="feat-disabled"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg><span>CRM de vendas e atendimentos</span></li>
+                <li class="feat-disabled"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg><span>Dashboard financeiro</span></li>
+                <li class="feat-disabled"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg><span>Dashboard de estoque e consumo</span></li>
+                <li class="feat-disabled"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg><span>Metas e desafios</span></li>
+                <li class="feat-disabled"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg><span>Sobre cada cliente (perfil detalhado)</span></li>
+                <li class="feat-disabled"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg><span>Cálculos de faturamento e lucro</span></li>
+                <li class="feat-disabled"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg><span>Histórico de vendas registradas e confirmadas</span></li>
+                <li class="feat-disabled"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg><span>Avaliação física de clientes</span></li>
+                <li class="feat-disabled"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg><span>Agenda do Espaço (bioimpedâncias e eventos)</span></li>
+              </ul>
+            </div>
+
+            <!-- Botão de Ação Ancorado -->
+            <div class="pricing-card-footer">
+              <a href="https://play.google.com/store/apps/details?id=com.guesbay.app" target="_blank"
+                rel="noopener noreferrer" class="btn btn-primary btn-block btn-plan-plus">
+                Contratar no App Android
+              </a>
+              <span class="plan-action-caption">📲 Assinatura via Google Play</span>
+            </div>
+          </div>
+
+          <!-- PLANO PRO (DESTAQUE / MAIS VENDIDO) -->
+          <div class="pricing-card featured featured-pro tier-pro">
+            <div class="featured-badge">⭐ Mais Vendido • Mais Popular</div>
+            <div class="pricing-header text-center">
+              <div class="plan-crystal-icon crystal-pro">
+                <svg viewBox="0 0 32 32" class="crystal-svg" aria-label="Plano PRO" role="img">
+                  <defs>
+                    <radialGradient id="halo-pro" cx="50%" cy="50%" r="50%">
+                      <stop offset="0%" stop-color="#F59E0B" stop-opacity="0.35"/>
+                      <stop offset="60%" stop-color="#D97706" stop-opacity="0.15"/>
+                      <stop offset="100%" stop-color="#92400E" stop-opacity="0"/>
+                    </radialGradient>
+                    <linearGradient id="grad-pro-tbl" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" stop-color="#FEF08A"/>
+                      <stop offset="50%" stop-color="#F59E0B"/>
+                      <stop offset="100%" stop-color="#D97706"/>
+                    </linearGradient>
+                    <linearGradient id="grad-pro-ctr" x1="0%" y1="0%" x2="0%" y2="100%">
+                      <stop offset="0%" stop-color="#FDE68A"/>
+                      <stop offset="40%" stop-color="#F59E0B"/>
+                      <stop offset="85%" stop-color="#D97706"/>
+                      <stop offset="100%" stop-color="#92400E"/>
+                    </linearGradient>
+                    <linearGradient id="grad-pro-sl" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" stop-color="#FFFBEB"/>
+                      <stop offset="45%" stop-color="#FBBF24"/>
+                      <stop offset="100%" stop-color="#D97706"/>
+                    </linearGradient>
+                    <linearGradient id="grad-pro-sr" x1="100%" y1="0%" x2="0%" y2="100%">
+                      <stop offset="0%" stop-color="#D97706"/>
+                      <stop offset="60%" stop-color="#B45309"/>
+                      <stop offset="100%" stop-color="#78350F"/>
+                    </linearGradient>
+                    <linearGradient id="grad-pro-str" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" stop-color="#FFFFFF"/>
+                      <stop offset="50%" stop-color="#FEF08A"/>
+                      <stop offset="100%" stop-color="#F59E0B"/>
+                    </linearGradient>
+                    <linearGradient id="grad-pro-arc" x1="0%" y1="0%" x2="100%" y2="0%">
+                      <stop offset="0%" stop-color="#F59E0B" stop-opacity="0.2"/>
+                      <stop offset="50%" stop-color="#FDE68A" stop-opacity="0.8"/>
+                      <stop offset="100%" stop-color="#D97706" stop-opacity="0.2"/>
+                    </linearGradient>
+                  </defs>
+                  <circle cx="16" cy="16" r="14" fill="url(#halo-pro)"/>
+                  <path d="M 7 11.5 C 9 6, 23 6, 25 11.5" fill="none" stroke="url(#grad-pro-arc)" stroke-width="1.2" stroke-linecap="round"/>
+                  <g stroke="#78350F" stroke-width="0.5" stroke-linejoin="round">
+                    <polygon points="11,7.5 21,7.5 18.5,12.5 13.5,12.5" fill="url(#grad-pro-tbl)"/>
+                    <polygon points="11,7.5 13.5,12.5 5.5,13" fill="url(#grad-pro-sl)"/>
+                    <polygon points="21,7.5 26.5,13 18.5,12.5" fill="url(#grad-pro-sr)"/>
+                    <polygon points="13.5,12.5 18.5,12.5 16,27" fill="url(#grad-pro-ctr)"/>
+                    <polygon points="5.5,13 13.5,12.5 16,27" fill="url(#grad-pro-sl)" opacity="0.9"/>
+                    <polygon points="26.5,13 18.5,12.5 16,27" fill="url(#grad-pro-sr)" opacity="0.9"/>
+                    <line x1="16" y1="12.5" x2="16" y2="27" stroke="#FEF08A" stroke-width="0.6" stroke-opacity="0.75"/>
+                    <line x1="13.5" y1="12.5" x2="16" y2="18.5" stroke="#FFFFFF" stroke-width="0.5" stroke-opacity="0.6"/>
+                  </g>
+                  <line x1="12" y1="8" x2="20" y2="8" stroke="#FFFFFF" stroke-width="0.7" stroke-linecap="round" stroke-opacity="0.85"/>
+                  <path d="M 26.5 2.5 Q 26.5 5.5 29.5 5.5 Q 26.5 5.5 26.5 8.5 Q 26.5 5.5 23.5 5.5 Q 26.5 5.5 26.5 2.5 Z" fill="url(#grad-pro-str)"/>
+                  <circle cx="26.5" cy="5.5" r="0.7" fill="#FFFFFF"/>
+                  <path d="M 5.5 20 Q 5.5 22 7.5 22 Q 5.5 22 5.5 24 Q 5.5 22 3.5 22 Q 5.5 22 5.5 20 Z" fill="url(#grad-pro-str)" opacity="0.85"/>
+                </svg>
+              </div>
+              <span class="plan-type">Completo & Irrestrito</span>
+              <h3 class="plan-name">PRO</h3>
+              <p class="plan-desc">Acesso total a CRM, dashboards, relatórios financeiros e histórico completo.</p>
+              <div class="plan-price plan-price-centered">
+                <span class="currency">R$</span>
+                <span class="price-val">29</span>
+                <span class="price-cents">,99</span>
+                <span class="price-period">/mês</span>
+              </div>
+            </div>
+
+            <div class="plan-divider"></div>
+
+            <!-- Destaques Rápidos Compactos -->
+            <div class="plan-quick-summary">
+              <span class="quick-pill">
+                <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+                Até 3 sistemas
+              </span>
+              <span class="quick-pill">
+                <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+                Dashboards & DRE
+              </span>
+              <span class="quick-pill">
+                <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="6"></circle><circle cx="12" cy="12" r="2"></circle></svg>
+                CRM, Metas & Agenda
+              </span>
+            </div>
+
+            <!-- Botão Saiba Mais (Expansão) -->
+            <button class="plan-expand-btn" aria-expanded="false" data-plan="pro">
+              <span>Saiba mais</span>
+              <svg class="chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </button>
+
+            <!-- Lista Expansível -->
+            <div class="plan-features-collapse">
+              <ul class="plan-features">
+                <li class="feat-allowed"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Criar até 3 sistemas próprios</span></li>
+                <li class="feat-allowed"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Entrar em até 5 sistemas compartilhados</span></li>
+                <li class="feat-allowed"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Cadastrar estoque ilimitado</span></li>
+                <li class="feat-allowed"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Pré-registro automático de estoque</span></li>
+                <li class="feat-allowed"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Cálculo de custos ilimitado</span></li>
+                <li class="feat-allowed"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Custo de produtos ilimitado</span></li>
+                <li class="feat-allowed"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Pré-registro automático de custos</span></li>
+                <li class="feat-allowed"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Cadastrar clientes ilimitados</span></li>
+                <li class="feat-allowed"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Tabela de preços</span></li>
+                <li class="feat-allowed"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Assistente IA e Atividades Recentes</span></li>
+                <li class="feat-allowed"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Entradas de estoque</span></li>
+                <li class="feat-allowed"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Atualização de estoque por planilha</span></li>
+                <li class="feat-allowed"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Gestão de programas</span></li>
+                <li class="feat-allowed"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span>CRM de vendas e atendimentos</span></li>
+                <li class="feat-allowed"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Dashboard financeiro completo</span></li>
+                <li class="feat-allowed"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Dashboard de estoque e consumo</span></li>
+                <li class="feat-allowed"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Metas e desafios</span></li>
+                <li class="feat-allowed"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Sobre cada cliente (perfil detalhado)</span></li>
+                <li class="feat-allowed"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Cálculos de faturamento e lucro</span></li>
+                <li class="feat-allowed"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Histórico de vendas registradas e confirmadas</span></li>
+                <li class="feat-allowed"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Avaliação física de clientes</span></li>
+                <li class="feat-allowed"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Agenda do Espaço (bioimpedâncias e eventos)</span></li>
+              </ul>
+            </div>
+
+            <!-- Botão de Ação Ancorado -->
+            <div class="pricing-card-footer">
+              <a href="https://play.google.com/store/apps/details?id=com.guesbay.app" target="_blank"
+                rel="noopener noreferrer" class="btn btn-primary btn-block btn-plan-pro">
+                Contratar no App Android
+              </a>
+              <span class="plan-action-caption">📲 Assinatura via Google Play</span>
+            </div>
+          </div>
+
+          <!-- PLANO ULTRA (POTÊNCIA MÁXIMA & IA AVANÇADA) -->
+          <div class="pricing-card featured featured-ultra tier-ultra" data-plan="ultra">
+            <div class="featured-badge badge-ultra">🚀 Potência Máxima • 6x Mais IA</div>
+            <div class="pricing-header text-center">
+              <div class="plan-crystal-icon crystal-ultra">
+                <svg viewBox="0 0 32 32" class="crystal-svg" aria-label="Plano ULTRA" role="img">
+                  <defs>
+                    <radialGradient id="halo-ultra" cx="50%" cy="50%" r="50%">
+                      <stop offset="0%" stop-color="#A855F7" stop-opacity="0.4"/>
+                      <stop offset="60%" stop-color="#7E22CE" stop-opacity="0.2"/>
+                      <stop offset="100%" stop-color="#581C87" stop-opacity="0"/>
+                    </radialGradient>
+                    <linearGradient id="grad-ultra-tbl" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" stop-color="#F5D0FE"/>
+                      <stop offset="45%" stop-color="#C084FC"/>
+                      <stop offset="100%" stop-color="#9333EA"/>
+                    </linearGradient>
+                    <linearGradient id="grad-ultra-ctr" x1="0%" y1="0%" x2="0%" y2="100%">
+                      <stop offset="0%" stop-color="#E9D5FF"/>
+                      <stop offset="35%" stop-color="#A855F7"/>
+                      <stop offset="80%" stop-color="#7E22CE"/>
+                      <stop offset="100%" stop-color="#581C87"/>
+                    </linearGradient>
+                    <linearGradient id="grad-ultra-sl" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" stop-color="#FAF5FF"/>
+                      <stop offset="50%" stop-color="#C084FC"/>
+                      <stop offset="100%" stop-color="#7E22CE"/>
+                    </linearGradient>
+                    <linearGradient id="grad-ultra-sr" x1="100%" y1="0%" x2="0%" y2="100%">
+                      <stop offset="0%" stop-color="#9333EA"/>
+                      <stop offset="60%" stop-color="#6B21A8"/>
+                      <stop offset="100%" stop-color="#3B0764"/>
+                    </linearGradient>
+                    <linearGradient id="grad-ultra-str" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" stop-color="#FFFFFF"/>
+                      <stop offset="50%" stop-color="#F5D0FE"/>
+                      <stop offset="100%" stop-color="#C084FC"/>
+                    </linearGradient>
+                    <linearGradient id="grad-ultra-crn" x1="0%" y1="0%" x2="100%" y2="0%">
+                      <stop offset="0%" stop-color="#A855F7" stop-opacity="0.4"/>
+                      <stop offset="50%" stop-color="#F5D0FE" stop-opacity="0.95"/>
+                      <stop offset="100%" stop-color="#A855F7" stop-opacity="0.4"/>
+                    </linearGradient>
+                  </defs>
+                  <circle cx="16" cy="16" r="14" fill="url(#halo-ultra)"/>
+                  <path d="M 10 7.5 L 13 4.2 L 16 6 L 19 4.2 L 22 7.5" fill="none" stroke="url(#grad-ultra-crn)" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <circle cx="16" cy="6" r="1" fill="#FFFFFF"/>
+                  <g stroke="#3B0764" stroke-width="0.5" stroke-linejoin="round">
+                    <polygon points="11,7.5 21,7.5 18.5,12.5 13.5,12.5" fill="url(#grad-ultra-tbl)"/>
+                    <polygon points="11,7.5 13.5,12.5 5.5,13" fill="url(#grad-ultra-sl)"/>
+                    <polygon points="21,7.5 26.5,13 18.5,12.5" fill="url(#grad-ultra-sr)"/>
+                    <polygon points="13.5,12.5 18.5,12.5 16,27" fill="url(#grad-ultra-ctr)"/>
+                    <polygon points="5.5,13 13.5,12.5 16,27" fill="url(#grad-ultra-sl)" opacity="0.95"/>
+                    <polygon points="26.5,13 18.5,12.5 16,27" fill="url(#grad-ultra-sr)" opacity="0.95"/>
+                    <line x1="16" y1="12.5" x2="16" y2="27" stroke="#F5D0FE" stroke-width="0.6" stroke-opacity="0.8"/>
+                    <line x1="13.5" y1="12.5" x2="16" y2="19" stroke="#FFFFFF" stroke-width="0.5" stroke-opacity="0.6"/>
+                    <line x1="18.5" y1="12.5" x2="16" y2="19" stroke="#E9D5FF" stroke-width="0.5" stroke-opacity="0.5"/>
+                  </g>
+                  <line x1="12" y1="8" x2="20" y2="8" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round" stroke-opacity="0.9"/>
+                  <path d="M 27 1.5 Q 27 5 30.5 5 Q 27 5 27 8.5 Q 27 5 23.5 5 Q 27 5 27 1.5 Z" fill="url(#grad-ultra-str)"/>
+                  <circle cx="27" cy="5" r="0.8" fill="#FFFFFF"/>
+                  <path d="M 4.5 4 Q 4.5 6.5 7 6.5 Q 4.5 6.5 4.5 9 Q 4.5 6.5 2 6.5 Q 4.5 6.5 4.5 4 Z" fill="url(#grad-ultra-str)" opacity="0.85"/>
+                  <path d="M 27 21 Q 27 23 29 23 Q 27 23 27 25 Q 27 23 25 23 Q 27 23 27 21 Z" fill="url(#grad-ultra-str)" opacity="0.8"/>
+                </svg>
+              </div>
+              <span class="plan-type text-purple">Alta Performance</span>
+              <h3 class="plan-name">ULTRA</h3>
+              <p class="plan-desc">Para quem lidera múltiplos espaços: 6x IA Copilot e expansão ilimitada.</p>
+              <div class="plan-price plan-price-centered">
+                <span class="currency">R$</span>
+                <span class="price-val">79</span>
+                <span class="price-cents">,99</span>
+                <span class="price-period">/mês</span>
+              </div>
+            </div>
+
+            <div class="plan-divider"></div>
+
+            <!-- Destaques Rápidos Compactos -->
+            <div class="plan-quick-summary">
+              <span class="quick-pill pill-purple">
+                <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2"><path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3L12 3z"/></svg>
+                6x Mais IA Copilot
+              </span>
+              <span class="quick-pill pill-purple">
+                <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="2" width="16" height="20" rx="2" ry="2"></rect><line x1="9" y1="22" x2="9" y2="2"></line></svg>
+                Até 10 sistemas
+              </span>
+              <span class="quick-pill pill-purple">
+                <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg>
+                20 compartilhados
+              </span>
+            </div>
+
+            <!-- Botão Saiba Mais (Expansão) -->
+            <button class="plan-expand-btn" aria-expanded="false" data-plan="ultra">
+              <span>Saiba mais</span>
+              <svg class="chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </button>
+
+            <!-- Lista Expansível -->
+            <div class="plan-features-collapse">
+              <ul class="plan-features">
+                <li class="feat-allowed feat-highlight-ultra"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span><strong>6x Mais Cota de IA Copilot</strong></span></li>
+                <li class="feat-allowed feat-highlight-ultra"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span><strong>Criar até 10 sistemas próprios</strong></span></li>
+                <li class="feat-allowed feat-highlight-ultra"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span><strong>Entrar em até 20 sistemas compartilhados</strong></span></li>
+                <li class="feat-allowed"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Cadastrar estoque ilimitado</span></li>
+                <li class="feat-allowed"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Pré-registro automático de estoque</span></li>
+                <li class="feat-allowed"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Cálculo de custos ilimitado</span></li>
+                <li class="feat-allowed"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Custo de produtos ilimitado</span></li>
+                <li class="feat-allowed"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Pré-registro automático de custos</span></li>
+                <li class="feat-allowed"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Cadastrar clientes ilimitados</span></li>
+                <li class="feat-allowed"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Tabela de preços</span></li>
+                <li class="feat-allowed"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Assistente IA e Atividades Recentes prioritário</span></li>
+                <li class="feat-allowed"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Entradas de estoque completo</span></li>
+                <li class="feat-allowed"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Atualização de estoque por planilha</span></li>
+                <li class="feat-allowed"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Gestão de programas nutricionais</span></li>
+                <li class="feat-allowed"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span>CRM de vendas e atendimentos</span></li>
+                <li class="feat-allowed"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Dashboard financeiro avançado</span></li>
+                <li class="feat-allowed"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Dashboard de estoque e consumo</span></li>
+                <li class="feat-allowed"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Metas, desafios e pontos de volume (PV)</span></li>
+                <li class="feat-allowed"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Perfil detalhado de hábitos do cliente</span></li>
+                <li class="feat-allowed"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Cálculos de faturamento e lucro líquido em tempo real</span></li>
+                <li class="feat-allowed"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Histórico de vendas e transações</span></li>
+                <li class="feat-allowed"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Avaliação física e bioimpedância</span></li>
+                <li class="feat-allowed"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Agenda do Espaço com suporte a múltiplos operadores</span></li>
+              </ul>
+            </div>
+
+            <!-- Botão de Ação Ancorado -->
+            <div class="pricing-card-footer">
+              <a href="https://play.google.com/store/apps/details?id=com.guesbay.app" target="_blank"
+                rel="noopener noreferrer" class="btn btn-primary btn-block btn-ultra-action btn-plan-ultra">
+                Contratar no App Android
+              </a>
+              <span class="plan-action-caption">📲 Assinatura via Google Play</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="pricing-footer-note">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="10"></circle>
+            <line x1="12" y1="16" x2="12" y2="12"></line>
+            <line x1="12" y1="8" x2="12.01" y2="8"></line>
+          </svg>
+          <span><strong>Lembrete importante:</strong> A contratação e upgrade dos planos PLUS, PRO e ULTRA só estão disponíveis no aplicativo móvel
+            Android. Para contratar ou gerenciar sua assinatura com segurança, acesse o Guesbay pelo aplicativo no celular.</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 5: PLATAFORMAS & DISPONIBILIDADE -->
+    <section id="plataformas" class="platforms-section">
+      <div class="container">
+        <div class="platforms-card">
+          <div class="platforms-info">
+            <div class="badge">Onde Você Pode Usar</div>
+            <h2 class="platforms-title">Acesse o Guesbay onde você estiver</h2>
+            <p class="platforms-desc">
+              Trabalhe no balcão pelo celular com agilidade ou faça fechamentos e relatórios no computador pelo
+              navegador. Seus dados estão sempre sincronizados.
+            </p>
+
+            <div class="platforms-list">
+              <!-- Android -->
+              <div class="platform-row">
+                <div class="plat-icon plat-android">
+                  <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                      d="M17.523 15.3414c-.5511 0-.9993-.4486-.9993-.9997s.4482-.9993.9993-.9993c.551 0 .9993.4482.9993.9993.0001.5511-.4483.9997-.9993.9997m-11.046 0c-.5511 0-.9993-.4486-.9993-.9997s.4482-.9993.9993-.9993c.5511 0 .9993.4482.9993.9993 0 .5511-.4482.9997-.9993.9997m11.4045-6.02l1.996-3.4572c.1561-.2705.0634-.6163-.2071-.7724-.2705-.1562-.6164-.0635-.7725.207l-2.0236 3.5048C15.3463 8.2435 13.7225 7.852 12 7.852c-1.7225 0-3.3463.3915-4.8743 1.0516L5.102 5.3988c-.1561-.2705-.502-.3632-.7725-.207-.2705.1561-.3632.5019-.2071.7724l1.996 3.4572C2.7093 11.229.4344 14.8812.4344 19.1235h23.1312c0-4.2423-2.2749-7.8945-5.6851-9.8021" />
+                  </svg>
+                </div>
+                <div>
+                  <h4>Aplicativo Nativo Android</h4>
+                  <p>Disponível na Google Play Store para celulares e tablets Android com notificações, performance
+                    máxima e <strong>contratação oficial de planos</strong>.</p>
+                </div>
+              </div>
+
+              <!-- Web -->
+              <div class="platform-row">
+                <div class="plat-icon plat-web">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="2" y1="12" x2="22" y2="12"></line>
+                    <path
+                      d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
+                    </path>
+                  </svg>
+                </div>
+                <div>
+                  <h4>Navegador Web Completo</h4>
+                  <p>Acesse em <a href="https://guesbay.axisevs.com/" target="_blank" rel="noopener noreferrer"
+                      class="link-emerald">guesbay.axisevs.com</a> direto do Chrome, Edge, Firefox ou Safari sem
+                    instalar nada.</p>
+                </div>
+              </div>
+
+              <!-- iOS Note -->
+              <div class="platform-row plat-disabled-row">
+                <div class="plat-icon plat-apple">
+                  <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                      d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M15.97 6.37c.62-.75 1.04-1.8 0.92-2.85-.9.04-1.99.6-2.64 1.35-.58.67-1.08 1.74-.94 2.78 1.01.08 2.04-.53 2.66-1.28z" />
+                  </svg>
+                </div>
+                <div>
+                  <h4>Apple iOS (iPhone / iPad) — Não Disponível</h4>
+                  <p class="text-muted">Por enquanto o desenvolvimento foi focado no ecossistema Android e Web. Não há
+                    app nativo na Apple App Store.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Action buttons -->
+            <div class="platform-btns">
+              <a href="https://play.google.com/store/apps/details?id=com.guesbay.app" target="_blank"
+                rel="noopener noreferrer" class="btn btn-primary">
+                <span>Ir para a Google Play Store</span>
+              </a>
+              <a href="https://guesbay.axisevs.com/" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+                <span>Abrir Versão Web</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 6: FAQ (PERGUNTAS FREQUENTES) -->
+    <section id="faq" class="faq-section">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="badge">Tire Suas Dúvidas</div>
+          <h2 class="section-title">Perguntas Frequentes</h2>
+          <p class="section-subtitle">Tudo o que você precisa saber sobre o Guesbay.</p>
+        </div>
+
+        <div class="faq-accordion">
+          <!-- Item 0: Contratação de Planos (PLUS, PRO, ULTRA) -->
+          <div class="faq-item active">
+            <button class="faq-question">
+              <span>Como faço para contratar ou fazer upgrade de um plano? Posso assinar pela Web?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <p><strong>A contratação e upgrades dos planos PLUS, PRO e ULTRA são realizados exclusivamente pelo aplicativo Android na Google Play Store.</strong> Não é possível contratar ou alterar assinaturas pela versão Web no computador. Para assinar, abra o Guesbay no seu celular Android, acesse a aba de Planos/Sistemas e confirme com a segurança e praticidade do Google Play. Assim que a assinatura é confirmada no celular, ela fica ativa e sincronizada imediatamente em todos os seus aparelhos, incluindo o computador pela Web!</p>
+            </div>
+          </div>
+
+          <!-- Item 0.1 - NOVO: Plano ULTRA -->
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>O que é o novo Plano ULTRA e para quem ele é recomendado?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <p>O <strong>Plano ULTRA (R$ 79,99/mês)</strong> é a categoria de mais alta performance do Guesbay, criada especialmente para consultores sênior, presidentes de equipe e empresários que operam múltiplos espaços ou redes de atendimento. Ele inclui <strong>6x mais cota de IA Copilot</strong> para consultas e automações, permissão para criar <strong>até 10 sistemas próprios</strong> e ingressar em <strong>até 20 sistemas compartilhados</strong> com outros operadores, além de suporte prioritário.</p>
+            </div>
+          </div>
+
+          <!-- Item 0.2 - NOVO: Leitor de XML & Emissão Fiscal -->
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Como funciona o Leitor de XML de Notas Fiscais e a emissão de cupom fiscal NFC-e?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <p>Com o <strong>Leitor de XML de NF-e</strong> do Guesbay, você não perde mais horas cadastrando insumos manualmente. Basta fazer o upload do arquivo XML da nota fiscal enviada pelo fornecedor: o sistema extrai automaticamente quantidades, valores de compra, calcula o custo unitário por dose/shake e atualiza o seu estoque. Além disso, o aplicativo permite a emissão rápida de <strong>DANFE NFC-e / Cupom Fiscal</strong> ao finalizar comandas no caixa, mantendo o seu negócio 100% organizado e em conformidade.</p>
+            </div>
+          </div>
+
+          <!-- Item 0.5: Funcionamento da IA -->
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Como funciona o Assistente de Inteligência Artificial? É um chat de conversação?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <p>Atualmente, o <strong>Assistente de IA</strong> funciona através de <strong>opções e consultas rápidas
+                  pré-registradas</strong>, fornecendo relatórios operacionais automáticos, alertas de estoque e
+                insights práticos do negócio sem necessidade de digitação complexa. O modo de <strong>conversação aberta
+                  por chat</strong> ainda não foi implementado e está previsto para atualizações futuras (com integração
+                ao avançado modelo <strong>Inteligência Artificial de Última Geração</strong>) conforme o aumento do uso e a expansão da base de
+                usuários do aplicativo!</p>
+            </div>
+          </div>
+
+          <!-- Item 1 -->
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Como faço para acessar o Guesbay pelo computador?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <p>Basta abrir qualquer navegador (Google Chrome, Microsoft Edge, Firefox, Safari) e acessar o endereço
+                oficial: <a href="https://guesbay.axisevs.com/" target="_blank" rel="noopener noreferrer"
+                  class="link-emerald">https://guesbay.axisevs.com/</a>. Faça login com seu e-mail e senha para ter
+                acesso imediato a todos os seus dados.</p>
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Onde baixo o aplicativo para celular?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <p>O aplicativo está disponível na <strong>Google Play Store</strong> para smartphones e tablets Android.
+                Você pode baixar pesquisando por "Guesbay" ou clicando diretamente no link: <a
+                  href="https://play.google.com/store/apps/details?id=com.guesbay.app" target="_blank"
+                  rel="noopener noreferrer"
+                  class="link-emerald">https://play.google.com/store/apps/details?id=com.guesbay.app</a>.</p>
+            </div>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Existe aplicativo para iPhone (iOS) na Apple App Store?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <p><strong>Não.</strong> No momento não possuímos aplicativo nativo na App Store da Apple, pois nossa
+                engenharia e desenvolvimento foram focados especificamente no sistema operacional Android. Se você
+                utiliza iPhone ou iPad, pode acessar normalmente todas as funcionalidades pela versão Web em <a
+                  href="https://guesbay.axisevs.com/" target="_blank" rel="noopener noreferrer"
+                  class="link-emerald">https://guesbay.axisevs.com/</a>.</p>
+            </div>
+          </div>
+
+          <!-- Item 4 -->
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Como funciona o compartilhamento com minha equipe ou sócios?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <p>O proprietário do sistema gera um código de convite de 6 letras na tela de Sistemas. O membro da equipe
+                abre o Guesbay no celular ou computador, clica em "Entrar em um Sistema" e digita o código.
+                Instantaneamente todos trabalham sincronizados no mesmo estoque e financeiro.</p>
+            </div>
+          </div>
+
+          <!-- Item 5 -->
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Posso começar gratuitamente?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <p>Sim! O <strong>Plano BASIC é 100% gratuito</strong> e permite criar 1 sistema próprio, cadastrar
+                clientes ilimitados, controlar até 10 produtos no estoque e gerenciar o histórico de vendas. Conforme
+                seu espaço crescer, você pode assinar o plano PLUS, PRO ou ULTRA diretamente pelo aplicativo Android.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 7: FINAL CALL TO ACTION (BANNER) -->
+    <section class="final-cta-section">
+      <div class="container">
+        <div class="final-cta-box">
+          <div class="final-cta-glow"></div>
+          <h2 class="final-cta-title">Transforme a gestão do seu negócio hoje mesmo</h2>
+          <p class="final-cta-subtitle">
+            Junte-se a consultores e donos de Espaços que economizam horas e maximizam seus lucros com o Guesbay.
+          </p>
+
+          <div class="final-cta-actions">
+            <a href="https://guesbay.axisevs.com/" target="_blank" rel="noopener noreferrer"
+              class="btn btn-primary btn-lg">
+              <span>Acessar Guesbay Web</span>
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                <polyline points="15 3 21 3 21 9"></polyline>
+                <line x1="10" y1="14" x2="21" y2="3"></line>
+              </svg>
+            </a>
+
+            <a href="https://play.google.com/store/apps/details?id=com.guesbay.app" target="_blank"
+              rel="noopener noreferrer" class="btn btn-store btn-lg">
+              <svg class="store-icon" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M3.609 1.814L13.792 12 3.61 22.186a2.38 2.38 0 0 1-.61-.952V2.766c.15-.36.368-.69.609-.952zm11.246 11.248L5.342 22.575a2.03 2.03 0 0 0 1.258.425c.53 0 1.05-.188 1.48-.543l9.075-5.24-2.3-4.196zm0-2.124l2.3-4.195-9.075-5.24A2.39 2.39 0 0 0 6.6.96c-.46 0-.91.15-1.258.425l9.513 9.513zm1.61 1.062l2.67-1.542c1.16-.67 1.16-1.764 0-2.434l-2.67-1.542-2.072 2.759 2.072 2.759z" />
+              </svg>
+              <div class="store-btn-text">
+                <span class="store-small">BAIXAR NO</span>
+                <span class="store-large">Google Play</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
-  <!-- Site Footer -->
-  <footer class="site-footer">
-    <div class="footer-container">
-      <div class="footer-col footer-col-brand">
-        <div class="footer-logo">
-          <img src="assets/logo.png" alt="Guesbay" class="footer-brand-img" onerror="this.src='assets/icon.png'">
-          <span>Guesbay</span>
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <div class="brand-logo">
+          <img src="assets/logo.png" alt="Guesbay Logo" class="logo-img">
+          <span class="brand-name">Guesbay</span>
         </div>
-        <p class="footer-tagline">
-          Plataforma SaaS para Gestores de Espaços de Nutrição & Bem-Estar e Distribuidores Independentes.
+        <p class="footer-desc">
+          Plataforma de gestão especializada para Espaços de Nutrição, lojas e consultores. Criado para potencializar
+          suas vendas e seu controle operacional.
         </p>
-        <p class="footer-legal-entity">
-          Axis-EVS • São José dos Campos - SP, Brasil.
+        <p class="footer-company-info" style="font-size: 13px; color: #94a3b8; margin-top: 10px; line-height: 1.5;">
+          <strong>Axis-EVS</strong> • CNPJ: 47.067.859/0001-81<br>
+          São José dos Campos - SP, Brasil<br>
+          DPO / Privacidade: <a href="mailto:axisevs@gmail.com" style="color: #10b981; text-decoration: underline;">axisevs@gmail.com</a>
         </p>
       </div>
 
-      <div class="footer-col">
-        <strong class="footer-col-title">Documentos Legais</strong>
-        <ul class="footer-links">
-          <li><a href="javascript:void(0)" class="footer-link-tab" data-tab="privacy">Política de Privacidade</a></li>
-          <li><a href="javascript:void(0)" class="footer-link-tab" data-tab="terms">Termos de Uso</a></li>
-          <li><a href="mailto:axisevs@gmail.com">Contato do DPO / Privacidade</a></li>
-        </ul>
-      </div>
+      <div class="footer-links-grid">
+        <div class="footer-col">
+          <h5 class="footer-col-title">Plataforma</h5>
+          <a href="https://guesbay.axisevs.com/" target="_blank" rel="noopener noreferrer">Acessar Web App</a>
+          <a href="https://play.google.com/store/apps/details?id=com.guesbay.app" target="_blank"
+            rel="noopener noreferrer">Google Play Store (Android)</a>
+          <a href="#planos">Planos & Preços</a>
+          <a href="#compartilhamento">Equipes & Workspaces</a>
+        </div>
 
-      <div class="footer-col">
-        <strong class="footer-col-title">Plataformas Oficiais</strong>
-        <ul class="footer-links">
-          <li><a href="https://guesbay.axisevs.com/" target="_blank" rel="noopener noreferrer">Guesbay Web App</a></li>
-          <li><a href="https://play.google.com/store/apps/details?id=com.guesbay.app" target="_blank" rel="noopener noreferrer">Google Play Store</a></li>
-          <li><a href="https://guesbay.axisevs.com/#faq" target="_blank" rel="noopener noreferrer">Perguntas Frequentes (FAQ)</a></li>
-        </ul>
-      </div>
+        <div class="footer-col">
+          <h5 class="footer-col-title">Recursos</h5>
+          <a href="#recursos">Estoque & Pontos de Volume</a>
+          <a href="#recursos">Calculadora de Custos</a>
+          <a href="#recursos">CRM de Clientes</a>
+          <a href="#dashboards">Dashboards Financeiros</a>
+          <a href="#fiscal">Automação Fiscal & XML</a>
+        </div>
 
-      <div class="footer-col">
-        <strong class="footer-col-title">Conformidade e Segurança</strong>
-        <p class="footer-text-sm">
-          Este ambiente público é atualizado continuamente em sincronia com as versões em produção do aplicativo móvel e web. Todos os dados são processados com isolamento lógico de locatário (RLS) e criptografia de ponta a ponta.
-        </p>
+        <div class="footer-col">
+          <h5 class="footer-col-title">Suporte & Legal</h5>
+          <a href="#faq">Perguntas Frequentes</a>
+          <a href="https://privacidade.axisevs.com/" target="_blank" rel="noopener noreferrer">Termos de Uso</a>
+          <a href="https://privacidade.axisevs.com/" target="_blank" rel="noopener noreferrer">Política de Privacidade (LGPD)</a>
+          <a href="mailto:axisevs@gmail.com">Contato: axisevs@gmail.com</a>
+        </div>
       </div>
     </div>
 
-    <div class="footer-bottom-bar">
-      <div class="footer-bottom-container">
-        <p>© 2026 Guesbay & Axis-EVS. Todos os direitos reservados. Regido pela legislação brasileira.</p>
-        <div class="footer-bottom-pills">
-          <span class="pill-sm">LGPD</span>
-          <span class="pill-sm">Marco Civil</span>
-          <span class="pill-sm">CDC</span>
-          <span class="pill-sm">Google Play Compliant</span>
-        </div>
-      </div>
+    <div class="container footer-bottom">
+      <p>© 2026 Guesbay by Axis-EVS (CNPJ: 47.067.859/0001-81). Todos os direitos reservados.</p>
+      <p class="footer-note">Assinaturas mensais contratadas e faturadas exclusivamente através da Google Play Store (Google Play Billing), com direito de arrependimento de 7 dias corridos (Art. 49 do CDC).</p>
     </div>
   </footer>
 
-  <!-- Toast Notification for Links -->
-  <div id="toast" class="toast" role="alert" aria-live="polite"></div>
+  <!-- Interactive Simulation Modal Backdrop & Card -->
+  <div class="sim-modal-backdrop" id="simModalBackdrop" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="sim-modal-card" id="simModalCard">
+      <div class="sim-modal-header">
+        <div class="sim-modal-header-text">
+          <span class="sim-modal-tag" id="simModalTag">
+            <span class="badge-dot"></span> Simulação Guesbay
+          </span>
+          <h3 class="sim-modal-title" id="simModalTitle">Detalhamento do Desempenho</h3>
+        </div>
+        <button class="sim-modal-close" id="simModalClose" aria-label="Fechar pop-up">✕</button>
+      </div>
+      <div class="sim-modal-body" id="simModalBody">
+        <!-- Dynamic Content Injected by script.js -->
+      </div>
+      <div class="sim-modal-footer">
+        <button class="btn btn-outline btn-sm" id="simModalSecondaryBtn">Fechar</button>
+        <a href="https://play.google.com/store/apps/details?id=com.guesbay.app" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+          <span>Baixar no Google Play</span>
+        </a>
+      </div>
+    </div>
+  </div>
 
-  <!-- Scripts -->
-  <script src="legal_data.js?v=20261002_3"></script>
-  <script src="script.js?v=20261002_3"></script>
+  <!-- Script -->
+  <script src="script.js"></script>
 </body>
+
 </html>
